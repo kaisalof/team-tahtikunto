@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+    border-top: 20px solid #FF8501;
+}
+
+.header {
+    background-color: #FFF;
+    color: #FF8501;
+    height: 850px;
+    text-align: center;
+    display: grid;
+}
+
+.header h1,
+.header img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.header h1 {
+    font-family: 'Style Script', cursive;
+    color: #002E2D;
+    opacity: 0.9;
+    font-size: 500%;
+    font-weight: 500;
+    width: 700px;
+    height: 80px;
+    line-height: 90px;
+    letter-spacing: 1.5px;
+    z-index: 2;
+    margin-left: -350px;
+    margin-top: -120px;
+    background-color: #FFF;
+}
+
+.header img {
+    width: 692.8px;
+    height: 600.8px;
+    opacity: 0.3;
+    z-index: 1;
+    margin-left: -346.4px;
+    margin-top: -330.4px;
+}
+
+.navigation {
+    list-style: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+    display: table;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #FFF;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.links {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: none;
+}
+
+.linkTo {
+    text-decoration: none;
+    color: #002E2D80;
+    padding-right: 40px;
+    padding: 0px 30px;
+    border-right: 1px solid #002E2D80;
+}
+
+#yhteydenotto {
+    border-right: none;
+}
+
+.linkTo:hover {
+    color: #FE9A62;
+}
+
+.kuvat {
+    width: 50%;
+}
+
+.content {
+    background-color: #FFF;
+    color: #000;
+}
+
+.footer {
+    text-align: center;
+    font-size: 75%;
+    color: #FFF;
+    background-color: #FF8501;
+    padding: 10px;
+}
