@@ -1,0 +1,169 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+}
+
+.etusivu {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.firstRow {
+    text-align: center;
+    padding: 20px;
+    color: #002E2D;
+    height: 750px;
+}
+
+.firstText {
+    height: 100%;
+    font-size: 150%;
+}
+
+.firstText p {
+    padding-top: 200px;
+    padding-left: 250px;
+}
+
+.etusivuKuva {
+    border: 2px solid #FE9A62;
+    height: 60%;
+    padding: 30px;
+}
+
+.secondRow {
+    height: 750px;
+    color: #002E2D;
+    text-align: center;
+}
+
+.secondImage {
+    background-color: #00000010;
+    height: 100%;
+}
+
+.tokaRiviKuva {
+    width: 90%;
+    border: 20px solid #FFF;
+    margin-top: 20%;
+}
+
+.secondText {
+    height: 100%;
+    font-size: 150%;
+    background-color: #002E2D95;
+    color: #FFF;
+}
+
+.secondText p {
+    padding: 250px 100px 0 100px;
+}
+
+.thirdRow {
+    height: 750px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1600px) {
+    .firstText p {
+        padding-left: 150px;
+    }
+    .tokaRiviKuva {
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .firstText p {
+        padding-left: 50px;
+    }
+    .secondText p {
+        padding-top: 200px;
+    }
+    .tokaRiviKuva {
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .secondText p {
+        padding: 220px 30px 0 30px;
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .firstRow {
+        height: 500px;
+    }
+    .firstText p {
+        padding-top: 80px;
+        font-size: 90%;
+    }
+    .etusivuKuva {
+        border: 2px solid #FE9A62;
+        height: 40%;
+        padding: 15px;
+    }
+    .secondRow {
+        height: 500px;
+    }
+    .tokaRiviKuva {
+        margin-top: 15%;
+        border: 10px solid #FFF;
+    }
+    .secondText p {
+        padding: 110px 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tokaRiviKuva {
+        margin-top: 35%;
+        border: none;
+    }
+    .secondText p {
+        padding: 150px 10px 0 10px;
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .firstRow {
+        height: 700px;
+    }
+    .firstText {
+        padding: 20px;
+        height: 200px;
+    }
+    .firstText p {
+        padding: 0 40px;
+    }
+    .secondRow {
+        height: auto;
+    }
+    .secondImage {
+        height: auto;
+        margin: 0;
+        background-color: #002E2D95;
+    }
+    .tokaRiviKuva {
+        margin-top: 20px;
+        height: auto;
+        width: 90%;
+        border: 10px solid #FFF;
+    }
+    .secondText {
+        height: 250px;
+    }
+    .secondText p {
+        padding: 30px 10px;
+        font-size: 65%;
+    }
+}

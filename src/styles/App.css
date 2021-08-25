@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-    height: 85%;
+    height: 90%;
     border: 3px solid #FFF;
 }
 
@@ -144,6 +144,7 @@ body {
     padding-right: 40px;
     padding: 0px 30px;
     border-right: 1px solid #002E2D80;
+    font-size: 125%;
 }
 
 #yhteydenotto {
@@ -158,19 +159,6 @@ body {
     width: 50%;
 }
 
-.content {
-    background-color: #FFF;
-    color: #000;
-}
-
-.footer {
-    text-align: center;
-    font-size: 75%;
-    color: #FFF;
-    background-color: #FF8501;
-    padding: 10px;
-}
-
 @media screen and (max-width: 44em) {
     .top {
         height: 50vh;
@@ -180,5 +168,11 @@ body {
     }
     .linkTo {
         border-right: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linkTo {
+        font-size: 100%;
     }
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/App.css'
+import '../styles/footerstyles.css'
 
 const Footer = () => {
     return (
         <div className="footer">
-            <p>Coded by Kaisa &#129311;</p>
+            <a href="https://github.com/kaisalof" target="_blank" rel="noreferrer">Coded by Kaisa &#129311;</a>
         </div>
     )
 }
