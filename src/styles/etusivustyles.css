@@ -21,7 +21,8 @@ body {
     height: 750px;
 }
 
-.firstText {
+.firstText,
+.secondText {
     height: 100%;
     font-size: 150%;
 }
@@ -55,8 +56,6 @@ body {
 }
 
 .secondText {
-    height: 100%;
-    font-size: 150%;
     background-color: #002E2D95;
     color: #FFF;
 }
@@ -66,8 +65,15 @@ body {
 }
 
 .thirdRow {
-    height: 750px;
+    height: auto;
     text-align: center;
+    background-color: #B0560020;
+    padding: 40px;
+}
+
+.thirdImages {
+    border: 20px solid #FFF;
+    width: 80%;
 }
 
 @media screen and (max-width: 1600px) {
@@ -89,6 +95,10 @@ body {
     .tokaRiviKuva {
         margin-top: 35%;
     }
+    .thirdImages {
+        border: 10px solid #FFF;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -99,7 +109,8 @@ body {
 }
 
 @media screen and (max-width: 1100px) {
-    .firstRow {
+    .firstRow,
+    .secondRow {
         height: 500px;
     }
     .firstText p {
@@ -111,15 +122,15 @@ body {
         height: 40%;
         padding: 15px;
     }
-    .secondRow {
-        height: 500px;
-    }
     .tokaRiviKuva {
         margin-top: 15%;
         border: 10px solid #FFF;
     }
     .secondText p {
         padding: 110px 20px 0 20px;
+    }
+    .thirdRow {
+        padding: 10px;
     }
 }
 
@@ -165,5 +176,8 @@ body {
     .secondText p {
         padding: 30px 10px;
         font-size: 65%;
+    }
+    .col-md-4 {
+        padding: 5px;
     }
 }

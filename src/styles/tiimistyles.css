@@ -1,0 +1,40 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+}
+
+.tiimiPage {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.tiimiHeader {
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.tiimi {
+    height: 100vh;
+    border: 1px solid black;
+    padding: 30px 60px;
+}
+
+.tiimiKuva {
+    width: 50%;
+}
+
+p {
+    font-size: 125%;
+}
+
+.enni {}

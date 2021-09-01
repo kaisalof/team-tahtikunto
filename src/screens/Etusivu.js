@@ -4,6 +4,9 @@ import React from 'react'
 // kuvat
 import MikanKuva from '../images/mika.jpeg'
 import HennaSoutu from '../images/hennasoutu.jpeg'
+import Enni from '../images/enni.jpeg'
+import Jasmin from '../images/jasminHauis.jpeg'
+import Henna from '../images/henna.jpeg'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -23,7 +26,7 @@ const Etusivu = () => {
 
             <Row className="secondRow">
                 <Col xl={5} lg={6} md={5} className="secondImage">
-                    <img src={HennaSoutu} alt="Henna" className="tokaRiviKuva" />
+                    <img src={HennaSoutu} alt="HennaSoutu" className="tokaRiviKuva" />
                 </Col>
                 <Col xl={7} lg={6} md={7} className="secondText">
                     <p>Meiltä saat kaikki pt-palvelut ammattitaidolla ja monen kymmenen vuoden kokemuksella. Teemme jokaiselle asiakkaalle yksilölliset ohjelmat, koska sekä ihmiset että tavoitteet ovat erilaisia. Harjoittelu ja ravinto ovat kokonaisvaltaisen hyvinvoinnin perusta. Kuntoilusta ja ruoasta pitää nauttia tavoitteesta riippumatta. Terveelliset elämäntavat auttavat jaksamaan arjessa paremmin sekä ylläpitävät parempaa vastustuskykyä.</p>
@@ -31,9 +34,15 @@ const Etusivu = () => {
             </Row>
 
             <Row className="thirdRow">
-                <Col>eka</Col>
-                <Col>toka</Col>
-                <Col>kolmas</Col>
+            <Col md={4} sm={12}>
+                    <img src={Jasmin} alt="Jasmin" className="thirdImages" />
+                </Col>
+                <Col md={4} sm={12}>
+                    <img src={Enni} alt="Enni" className="thirdImages" />
+                </Col>                
+                <Col md={4} sm={12}>
+                    <img src={Henna} alt="Henna" className="thirdImages" />
+                </Col>
             </Row>
         </Container>
 
