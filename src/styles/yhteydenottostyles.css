@@ -11,13 +11,14 @@ body {
 }
 
 .yhteydenotto {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
     background-color: #002E2D10;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-h1 {
+.otayhteytta {
     text-align: center;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -32,10 +33,20 @@ h1 {
 .yhteystiedot {
     width: 350px;
     margin: auto;
-    margin-top: 60px;
-    color: #002E2D95;
+    margin-top: 40px;
     border-bottom: 1px solid white;
     padding-bottom: 20px;
+}
+
+.yhteystiedot a,
+.yhteystiedot p {
+    color: #002E2D95;
+    font-size: 150%;
+    padding: 10px;
+}
+
+.yhteystiedot a:hover {
+    color: #FE9A62;
 }
 
 .some {
@@ -62,14 +73,21 @@ h1 {
     clear: both;
 }
 
-.lomake {
+.yhteydenottoLomake {
     text-align: center;
-    max-width: 300px;
+    max-width: 400px;
     margin: 20px auto;
 }
 
 Form {
-    border: 1px solid lightgray;
+    border: 2px solid #FE9A6250;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
+    background-color: #002E2D05;
+}
+
+.lomake label {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
 }
