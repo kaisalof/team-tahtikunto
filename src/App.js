@@ -7,12 +7,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import Content from './components/Content'
+import LogoName from './components/LogoName'
 
 
 const App = () => {
   return (
     <Router>
-      <div>        
+      <div>       
+        <LogoName /> 
         <Navigation />
         <Content />
         <Footer />

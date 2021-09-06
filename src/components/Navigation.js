@@ -1,40 +1,93 @@
 import React from 'react'
+import { useState } from 'react'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
-import '../styles/App.css'
 
-import LogoName from './LogoName'
 
 const Navigation = () => {
+    const [click, setClick] = useState(false)
+
+    const handleClick = () => setClick(!click)
+    const Close = () => setClick(false)
+
     return (
-        <div>
-            <div className="top" >
-                <LogoName />
-                <nav className="navigation">
-                    <ul>
-                        <li className="links">
-                            <Link to="/" className="linkTo">Etusivu</Link>
-                        </li>
-                        <li className="links">
-                            <Link to="/mika" className="linkTo">Mika</Link>
-                        </li>
-                        <li className="links">
-                            <Link to="/palvelut" className="linkTo">Palvelut</Link>
-                        </li>
-                        <li className="links">
-                            <Link to="/tiimi" className="linkTo">Tiimi</Link>
-                        </li>
-                        <li className="links">
-                            <Link to="/kuvia" className="linkTo">Kuvia</Link>
-                        </li>
-                        <li className="links">
-                            <Link to="/yhteydenotto" className="linkTo" id="yhteydenotto">Yhteydenotto</Link>
-                        </li>
-                    </ul>
+            <div id="nav" className={click ? "main-container" : ""} onClick={() => Close()}>
+                <nav className="navigation" onClick={(e) => e.stopPropagation()}>
+                    <div className="nav-container">
+                        <ul className={click ? "nav-menu active" : "nav-menu"} >
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Etusivu
+                                </Link>
+                            </li>
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/mika"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Mika
+                                </Link>
+                            </li>
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/palvelut"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Palvelut
+                                </Link>
+                            </li>
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/tiimi"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Tiimi
+                                </Link>
+                            </li>
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/kuvia"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Kuvia
+                                </Link>
+                            </li>
+                            <li className="links">
+                                <Link
+                                    exact
+                                    to="/yhteydenotto"
+                                    activeClassName="active"
+                                    className="linkTo"
+                                    id="yhteydenotto"
+                                    onClick={click ? handleClick : null}
+                                >
+                                    Yhteydenotto
+                                </Link>
+                            </li>
+                        </ul>
+                        <div className="nav-icon" onClick={handleClick}>
+                            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+                        </div>
+                    </div>
                 </nav>
-                
             </div>
-            
-        </div>
     )
 }
 

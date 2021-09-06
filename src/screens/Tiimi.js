@@ -66,7 +66,7 @@ const Tiimi = () => {
                     tähän kuva
                 </Col>
             </Row>
-            <Row>
+            <Row className="satu tiimi">
                 <Col>
                     image
                 </Col>
@@ -80,6 +80,24 @@ const Tiimi = () => {
                     Työskentelen tutkijana ja työaikani ovat joustavat. Tästä johtuen pääsen treenaamaan parhaimmillaan kahdesti päivässä. Tällä hetkellä vapaa-aikaani kuluu pääosin tanssitreeneissä ja salilla, joka nollaa hyvin päässä risteilevät työasiat tai arkiset murheet. Suurin haasteeni on, että malttaisin levätä riittävästi. Onneksi Mika on toiminut järjen äänenä ja jarruna tarvittaessa.</Col>
                 <Col></Col>
 
+            </Row>
+            <Row className="kia tiimi">
+                <Col>
+                    image
+                </Col>
+                <Col>
+                    <h4>Kia</h4>
+                    <p>
+                    Kia Norring
+Laji:Bikini fitness
+Moikka! Olen 17-vuotias tyttö Karkkilasta. Urheilu on aina ollut osa elämää ja arkea, lukuisissa muodoissa. Olen pienempänä harrastanut vaikka mitä, mutta voimistelulajit ovat olleet niistä mieleenpainuvimpia. 
+Kun muutama vuosi sitten lopetin voimistelun. Aloin miettimään itselleni oikeaa lajia koska aloin käydä salilla ja tykästyin siihen ihan todenteolla. Halusin viedä asiaa eteempäin ja kiinnostuin fitneksestä joten liityin tiimiin. Olen käynyt salilla ja kuulunut tiimiin noin vuoden verran. Kisalavalle nouseminen on haaveissa.
+Opiskelen tällä hetkellä lukiossa ja tästä on tarkoitus jatkaa vielä ammattikorkeakouluun kun oikea ala löytyy😁🙏. Minulla on koira jonka kanssa tulee lenkkeiltyä jonkun verran+muiden perheenjäsenten sekä kavereiden kanssa treenailtua yhdessä silloin tällöin❤️.
+                    </p>
+                </Col>
+                <Col>
+                    image
+                </Col>
             </Row>
         </Container>
     )

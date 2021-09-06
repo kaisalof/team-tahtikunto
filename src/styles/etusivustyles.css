@@ -18,7 +18,7 @@ body {
     text-align: center;
     padding: 20px;
     color: #002E2D;
-    height: 750px;
+    height: 90vh;
 }
 
 .firstText,
@@ -32,9 +32,12 @@ body {
     padding-left: 250px;
 }
 
+
+/*korjaa leveys ja korkeus, koska firstrown korkeus on 90vh*/
+
 .etusivuKuva {
     border: 2px solid #FE9A62;
-    height: 60%;
+    height: 80vh;
     padding: 30px;
 }
 

@@ -5,7 +5,7 @@ import '../styles/App.css'
 const LogoName = () => {
     return (
         <div className="header">
-            <img src={Logo} alt="logo" className="headerImage" />
+            <img src={Logo} alt="logo"  />
         </div>
     )
 
