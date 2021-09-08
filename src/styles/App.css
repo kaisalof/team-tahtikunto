@@ -17,6 +17,9 @@ html {
     height: 100%;
 }
 
+
+/* https://codepen.io/codebucks27/pen/yLMvOPX*/
+
 body {
     position: relative;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -147,8 +150,8 @@ body {
         width: 72.5%;
     }
     #nav {
-        padding-top: 0;
-        height: 60px;
+        border-top: 0;
+        height: 50px;
         /* position: sticky;*/
     }
     .nav-menu {

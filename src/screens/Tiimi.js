@@ -17,6 +17,10 @@ const Tiimi = () => {
             <Row className="tiimiHeader">
                 <Col>
                     <h1>Tiimi</h1>
+                    <p>Team Tähtikunto on alunperin fitness-, fysiikka- ja kehonrakennuskilpailuja varten perustettu kisatiimi. Tähtikunnon valmennuksessa olevat kilpailijat edustavat tiimiä valitsemassaan lajissa.</p>
+                    <p>Tiimille järjestetään yhteisiä treenejä, poseerausharjoituksia ja leirejä, joissa hiotaan asentoja ja esiintymistä. Kilpailuihin urheilijoille järjestetään huolto ja stailaus eri alojen ammattilaisista koostuvasta yhteistyöverkostostamme.</p>
+                    
+                    <p>Haluatko sinäkin Tähtikuntoon?</p>
                 </Col>
             </Row>
             <Row className="enni tiimi" >
@@ -53,7 +57,7 @@ const Tiimi = () => {
                 </Col>
                 <Col xs={8}>
                     <h4>Henna</h4>
-                    <h5>?</h5>
+                    <h5>Huoltaja / meikkaaja</h5>
                     <p>Moi! Olen Henna ja toimin tiimin meikkaajana ja huoltajana.
 
                         Valmistuin 2018 meikkaajaksi ja rakastuin silloin välittömästi näyttävien ilta- ja juhlameikkien maailmaan. Kisameikit ovat siis sataprosenttisesti minun heiniäni! Seuraan jatkuvasti uusia meikkitrendejä ja minulta onnistuu luovat ja erikoisemmatkin työt.

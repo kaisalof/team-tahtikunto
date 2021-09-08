@@ -1,1 +1,45 @@
 /*background: linear-gradient(#FFF, #002E2D);*/
+
+.taulukko {
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+th {
+    font-size: 17px;
+}
+
+td {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .taulukko {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .taulukko {
+        max-width: 450px;
+        margin: auto;
+    }
+    th {
+        font-size: 15px;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .taulukko {
+        max-width: 350px;
+    }
+    th {
+        font-size: 13px;
+    }
+    td {
+        font-size: 12px;
+    }
+}
