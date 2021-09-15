@@ -39,6 +39,7 @@ body {
     border: 2px solid #FE9A62;
     height: 80vh;
     padding: 30px;
+    margin-top: 20px;
 }
 
 .secondRow {
@@ -124,6 +125,7 @@ body {
         border: 2px solid #FE9A62;
         height: 40%;
         padding: 15px;
+        margin-top: 0;
     }
     .tokaRiviKuva {
         margin-top: 15%;
@@ -182,5 +184,33 @@ body {
     }
     .col-md-4 {
         padding: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .firstRow {
+        height: 800px;
+    }
+    .etusivuKuva {
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .firstRow {
+        height: 650px;
+    }
+    .firstText {
+        padding: 0;
+        height: 150px;
+    }
+    .firstText p {
+        padding: 0;
+    }
+    .etusivuKuva {
+        /* margin-top: 170px;*/
+        height: auto;
+        width: 85%;
     }
 }

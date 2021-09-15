@@ -1,4 +1,142 @@
-/*background: linear-gradient(#FFF, #002E2D);*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+}
+
+
+/*tää on vaan väliaikainen*/
+
+.kuvat {
+    width: 20%;
+    border: 10px solid #FFF;
+}
+
+p {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color: #002E2D90;
+}
+
+.rows {}
+
+.mika {
+    /*background: linear-gradient(#FFF, #002E2D);*/
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 125%;
+}
+
+.topRow {
+    padding: 40px;
+    /*background-color: #FE9A6210;*/
+}
+
+.topRow h1 {
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    font-size: 400%;
+    color: #002E2D;
+    letter-spacing: 3px;
+}
+
+.aboutMika {
+    background-color: #002E2D10;
+    padding: 40px;
+    height: 90vh;
+}
+
+.sloganit {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: #002E2D;
+    font-size: 200%;
+}
+
+.aboutMikaKuva {
+    height: 80vh;
+    width: 100%;
+}
+
+.mikanKuva {
+    height: 100%;
+    border: 20px solid #FFF;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.kuvaus {
+    height: 100%;
+    font-size: 110%;
+}
+
+.kuvaus p {
+    color: #002E2D95;
+    padding-top: 180px;
+    padding-right: 100px;
+    padding-left: 50px;
+    /* border: 2px solid #FFF;*/
+}
+
+.aboutMika2 {
+    background-color: #002E2D20;
+    height: 90vh;
+    padding: 30px;
+}
+
+.kuvaus2 {
+    height: 100%;
+}
+
+.koira {
+    width: 90%;
+    margin: auto;
+}
+
+.sloganLinkki {
+    background-color: #FFF;
+    height: 200px;
+    text-align: center;
+}
+
+.koulutus {
+    background-color: #002E2D40;
+    height: 40vh;
+}
+
+.tausta {
+    background-color: #002E2D50;
+    height: 90vh;
+}
+
+.tausta2 {
+    background-color: #002E2D60;
+    height: 90vh;
+}
+
+.vahvuudet {
+    background-color: #002E2D70;
+    height: 90vh;
+}
+
+.tahtikunto {
+    background-color: #002E2D80;
+    height: 90vh;
+}
+
+.saavutukset {
+    background-color: #002E2D90;
+}
 
 .taulukko {
     max-width: 600px;
@@ -13,9 +151,89 @@ td {
     font-size: 16px;
 }
 
+@media screen and (max-width: 1500px) {
+    /*.aboutMika {
+        height: 800px;
+    }
+    .mikanKuva {
+        margin-left: 0;
+    }
+    .kuvaus p {
+        padding-left: 80px;
+        font-size: 20px;
+    }*/
+    .kuvaus p {
+        padding-top: 120px;
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .aboutMika {
+        height: 700px;
+        padding: 20px;
+    }
+    .kuvaus {
+        font-size: 100%;
+    }
+    .kuvaus p {
+        padding-top: 120px;
+        padding-left: 120px;
+        padding-right: 0px;
+    }
+    .aboutMikaKuva {
+        height: 100%;
+    }
+    .mikanKuva {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .kuvaus {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .aboutMika {
+        height: 950px;
+        text-align: center;
+    }
+    .aboutMikaKuva {
+        height: 600px;
+    }
+    .mikanKuva {
+        margin: auto;
+    }
+    .kuvaus {
+        height: 350px;
+    }
+    .kuvaus p {
+        padding: 20px 50px;
+    }
+}
+
 @media screen and (max-width: 800px) {
+    .aboutMika {
+        height: 1000px;
+    }
+    .kuvaus {
+        height: 400px;
+    }
     .taulukko {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutMika {
+        height: 1050px;
+    }
+    .kuvaus {
+        height: 450px;
     }
 }
 
@@ -32,7 +250,45 @@ td {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .aboutMika {
+        height: 1000px;
+    }
+    .aboutMikaKuva {
+        height: 500px;
+    }
+    .kuvaus {
+        height: 500px;
+    }
+    .kuvaus p {
+        padding: 15px 20px;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .topRow {
+        padding: 10px;
+    }
+    .topRow h1 {
+        font-size: 200%;
+        letter-spacing: 1px;
+    }
+    .sloganit {
+        font-size: 120%;
+    }
+    .aboutMika {
+        height: 850px;
+    }
+    .aboutMikaKuva {
+        height: 400px;
+    }
+    .kuvaus {
+        height: 450px;
+        font-size: 80%;
+    }
+    .kuvaus p {
+        padding: 20px;
+    }
     .taulukko {
         max-width: 350px;
     }
@@ -41,5 +297,26 @@ td {
     }
     td {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .aboutMika {
+        height: 950px;
+    }
+    .kuvaus {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .aboutMika {
+        padding: 10px;
+    }
+    .mikanKuva {
+        border: solid 5px #FFF;
+    }
+    .kuvaus p {
+        padding: 10px;
     }
 }
