@@ -4,6 +4,7 @@ import Saavutukset from '../components/Saavutukset'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 //kuvat
 import MikanKuva from '../images/mika2.jpeg'
@@ -36,42 +37,49 @@ const Mika = () => {
             </Row>
 
             <Row className="aboutMika2 rows">
-                <Col className="kuvaus2">
-                    <p>Itse rentoudun parhaiten metsässä koirieni kanssa ja teen lenkin lähes joka aamu. Siitä saan voimaa ja energiaa, jota haluan jakaa myös valmennettavilleni.</p>
-                    <p>Minulle on tärkeää, että saamme yhdessä asiakkaan toivomia tuloksia aikaan, kuitenkin aina terveys ja hyvinvointi edellä. Tavoitteeni on, että jokainen saisi urheilusta ja kuntoilusta ikuisen ystävän.</p>
+                <Col xl={true} lg={4} xs={12} className="kuvaus2">
+                    <p>Itse rentoudun parhaiten metsässä koirieni kanssa ja teen lenkin lähes joka aamu. Siitä saan voimaa ja energiaa, jota haluan jakaa myös valmennettavilleni.<br /><br />
+                        Minulle on tärkeää, että saamme yhdessä asiakkaan toivomia tuloksia aikaan, kuitenkin aina terveys ja hyvinvointi edellä. Tavoitteeni on, että jokainen saisi urheilusta ja kuntoilusta ikuisen ystävän.<br /><br />
+                        <Link
+                            exact
+                            to="/palvelut"
+                            className="linkki"
+                        >
+                            Voit tutustua palveluihini tästä
+                        </Link>
+                    </p>
+
                 </Col>
-                <Col>
-                    <img src={koira} alt="koirakuva" className="kuvat koira" />
+                <Col xl={true} lg={8} xs={12} className="kuvaus2kuva">
+                    <img src={koira} alt="koirakuva" className="koira" />
                 </Col>
             </Row>
 
-            <Row className="sloganLinkki rows" >
+            <Row className="slogan rows" >
                 <Col>
-                    <p>”Treenataan tosissaan, mutta ei liian vakavasti”</p>
-                    {/*Linkki yhteydenottoon*/}
-                    <p>Voit tutustua palveluihini tästä{/* linkki */}</p>
+                    <p className="sloganit treenataan">”Treenataan tosissaan, mutta ei liian vakavasti”</p>
                 </Col>
             </Row>
 
             <Row className="koulutus rows" >
                 <Col>
-                    <h4>Koulutus:</h4>
+                    <h4>Koulutus</h4>
 
-                    <p>Personal Trainer, FAF</p>
-                    <p>Fitnessvalmentaja, SFU</p>
-                    <p>Urheiluhieroja</p>
+                    <p>Personal Trainer, FAF<br /><br />
+                        Fitnessvalmentaja, SFU<br /><br />
+                        Urheiluhieroja</p>
                 </Col>
-                <Col>
+                {/*<Col>
                     <img src={ohjauskuva} alt="Enni ja Mika" className="kuvat" />
-                </Col>
+                </Col>*/}
             </Row>
 
             <Row className="tausta rows">
                 <Col>
                     <h4>Tausta ja omat saavutukset</h4>
 
-                    <p>Nuorempana harrastin yleisurheilua noin 10 vuoden ajan ja samalla judoa, josta viimeiset kaksi vuotta kilpailumielessä. </p>
-                    <p>Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen. Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
+                    <p>Nuorempana harrastin yleisurheilua noin 10 vuoden ajan ja samalla judoa, josta viimeiset kaksi vuotta kilpailumielessä. <br /><br />
+                        Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen. Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
                 </Col>
                 <Col>
                     <img src={Mika1982} alt="Mika vuonna 1982." className="kuvat" />
@@ -80,8 +88,8 @@ const Mika = () => {
 
             <Row className="tausta2 rows">
                 <Col>
-                    <p>Kehonrakennus on ollut harrastuksena kilpailumielessä vuodesta 1979 alkaen reilut 20 vuotta, saavutuksina mm. SM-kultaa ja PM-hopeaa vuonna 1982.</p>
-                    <p>Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa eli raskaassa sarjassa.</p>
+                    <p>Kehonrakennus on ollut harrastuksena kilpailumielessä vuodesta 1979 alkaen reilut 20 vuotta, saavutuksina mm. SM-kultaa ja PM-hopeaa vuonna 1982.<br /><br />
+                        Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa eli raskaassa sarjassa.</p>
                 </Col>
                 <Col>
                     <img src={Mika2001} alt="Mika vuonna 2001." className="kuvat" />
@@ -92,9 +100,9 @@ const Mika = () => {
                 <Col>
                     <h4>Erityisosaaminen ja vahvuuteni valmentajana</h4>
 
-                    <p>Vahvuutenani on yli 40 vuoden kokemus kehonrakennus- ja kuntosaliharjoittelusta sekä erilaisten ruokavalioiden yksilöllisestä suunnittelusta niin kilpailijoille kuin kuntoilijoillekin.</p>
-                    <p>Olen kunnianhimoinen, luotettava, kannustava ja sosiaalinen treenari, joka on aina täysillä mukana ja asiakkaan tukena.</p>
-                    <p>Minulle on tärkeää saada tuloksia aikaan, ja asiakas ymmärtämään riittävän urheilun ja monipuolisen ruokavalion vaikutuksen kokonaisvaltaiseen hyvinvointiin.</p>
+                    <p>Vahvuutenani on yli 40 vuoden kokemus kehonrakennus- ja kuntosaliharjoittelusta sekä erilaisten ruokavalioiden yksilöllisestä suunnittelusta niin kilpailijoille kuin kuntoilijoillekin.<br /><br />
+                        Olen kunnianhimoinen, luotettava, kannustava ja sosiaalinen treenari, joka on aina täysillä mukana ja asiakkaan tukena.<br /><br />
+                        Minulle on tärkeää saada tuloksia aikaan, ja asiakas ymmärtämään riittävän urheilun ja monipuolisen ruokavalion vaikutuksen kokonaisvaltaiseen hyvinvointiin.</p>
                 </Col>
                 <Col></Col>
             </Row>
@@ -103,9 +111,8 @@ const Mika = () => {
                 <Col>
                     <h4>Team Tähtikunto ja kisat</h4>
 
-                    <p>Kisatiimini Team Tähtikunnon {/* tähän linkki @teamtahtikunto instaan*/}päävalmentajana olen ollut jo toistakymmentä vuotta, samoin tuomarin tehtävissä body- ja fitnesskisoissa.</p>
-                    <p>Kokemusta ja kohtaamisia erilaisten ihmisten ja urheilijoiden kanssa siis löytyy, vaikka tässä työssä oppii koko ajan myös lisää. Se tekee työstäni erittäin mielenkiintoisen.</p>
-
+                    <p>Kisatiimini Team Tähtikunnon {/* tähän linkki @teamtahtikunto instaan*/}päävalmentajana olen ollut jo toistakymmentä vuotta, samoin tuomarin tehtävissä body- ja fitnesskisoissa.<br /><br />
+                        Kokemusta ja kohtaamisia erilaisten ihmisten ja urheilijoiden kanssa siis löytyy, vaikka tässä työssä oppii koko ajan myös lisää. Se tekee työstäni erittäin mielenkiintoisen.</p>
 
                     <p>Haluatko sinäkin elämäsi kuntoon?</p>
                 </Col>

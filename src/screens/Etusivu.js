@@ -50,14 +50,3 @@ const Etusivu = () => {
 }
 
 export default Etusivu
-/*<div className="etusivu">
-            <div>
-                <img src={MikanKuva} alt="Mika" className="etusivuKuva" />
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-        </div>*/
