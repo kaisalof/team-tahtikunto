@@ -18,7 +18,8 @@ const Saavutukset = () => {
                     <th></th>
                     <td><b>Robert Nitz</b><br />
                         Fitness Classic, Classic bodybuilding masters -sarja, kultaa<br />
-                        Classic bodybuilding yleinen sarja, hopeaa</td>
+                        Classic bodybuilding yleinen sarja, hopeaa<br />
+                        Classic bodybuilding EM, 5. sija</td>
                 </tr>
                 <tr>
                     <th>2020</th>
@@ -30,8 +31,7 @@ const Saavutukset = () => {
                     <th></th>
                     <td><b>Robert Nitz</b><br />
                         Classic bodybuilding yleinen sarja, SM-hopeaa<br />
-                        Classic bodybuilding +40 v, SM-hopeaa<br />
-                        Classic bodybuilding EM???????????????????</td>
+                        Classic bodybuilding +40 v, SM-hopeaa</td>
                 </tr>
                 <tr>
                     <th></th>

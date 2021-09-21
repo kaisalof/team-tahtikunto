@@ -140,8 +140,80 @@ p {
     padding: 30px;
 }
 
-.koulutus {
+.tausta {
     background-color: #002E2D35;
+    height: 935px;
+}
+
+.tausta h4 {
+    height: 45px;
+    font-size: 125%;
+    margin-left: 45%;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #FE9A62;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.taustaKuva {
+    text-align: center;
+}
+
+.mika1982,
+.mika1994 {
+    width: 325px;
+    padding: 10px;
+    background-color: #FFF;
+    margin: 10px 60px 5px 60px;
+}
+
+.mika1982 {
+    margin-top: -250px;
+}
+
+.taustaTeksti {
+    height: 100%;
+    padding-top: 40px;
+}
+
+.taustaTeksti p,
+.tausta2Teksti p {
+    width: 700px;
+    padding-top: 80px;
+    font-size: 125%;
+}
+
+.tausta2 {
+    background-color: #002E2D35;
+    height: 410px;
+}
+
+.tausta2Kuva {
+    text-align: center;
+}
+
+.mika2001 {
+    background-color: #FFF;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    margin-top: 0px;
+}
+
+.tausta2Teksti {
+    height: 100%;
+}
+
+.tausta2Teksti p {
+    padding-top: 140px;
+}
+
+.koulutus {
+    background-color: #002E2D50;
     height: 275px;
     text-align: center;
 }
@@ -150,7 +222,7 @@ p {
     font-size: 125%;
     text-transform: uppercase;
     color: #002E2D;
-    border-bottom: 2px solid #FFFFFF80;
+    border-bottom: 2px solid #FE9A62;
     width: 250px;
     margin: auto;
     padding: 10px;
@@ -165,41 +237,113 @@ p {
     letter-spacing: 1px;
 }
 
-.tausta {
-    background-color: #002E2D50;
-    height: 90vh;
-}
-
-.tausta2 {
-    background-color: #002E2D60;
-    height: 90vh;
-}
-
 .vahvuudet {
     background-color: #002E2D70;
     height: 90vh;
+    padding-left: 60px;
+}
+
+.vahvuudetTeksti {
+    padding-top: 140px;
+}
+
+.vahvuudetTeksti h4 {
+    font-size: 125%;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #FE9A62;
+    width: 700px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.vahvuudetTeksti p {
+    color: #FFF;
+    padding-top: 20px;
+    width: 90%;
+    font-size: 115%;
 }
 
 .tahtikunto {
-    background-color: #002E2D80;
-    height: 90vh;
+    border-top: 1px solid #FE9A62;
+}
+
+.tahtikunto a {
+    color: #FE9A62;
+    font-size: 120%;
+    font-family: 'Style Script', cursive;
+}
+
+.tahtikunto a:hover {
+    color: #002E2D90;
+}
+
+.vahvuudetTeksti .haluatko {
+    font-family: 'Great Vibes', cursive;
+    font-size: 175%;
+}
+
+.vahvuudetKuva {
+    background-color: #FFF;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.enniMika {
+    height: 85vh;
+    background-color: #FF850190;
+    padding: 20px;
 }
 
 .saavutukset {
-    background-color: #002E2D90;
+    background-color: #002E2D80;
+    padding: 30px;
 }
 
-.taulukko {
-    max-width: 600px;
-    margin-left: 60px;
+.saavutuksetOtsikko {
+    text-align: center;
+}
+
+.saavutuksetOtsikko h4 {
+    margin: auto;
+    font-size: 115%;
+    color: #FFF;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #FE9A62;
+    width: 1000px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.saavutuksetTaulukko div {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20%;
 }
 
 th {
     font-size: 17px;
+    padding-left: 10px;
+    width: 70px;
 }
 
 td {
     font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.saavutuksetKuvat {
+    padding-top: 20px;
+    width: 50%;
+}
+
+.saavutuksetKuva {
+    width: 350px;
+    padding: 10px;
+    background-color: #FFF;
+    margin: 20px;
+    margin-right: 120px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -213,6 +357,18 @@ td {
     }
     .kuvaus2 p {
         padding: 60px 40px;
+    }
+    .saavutuksetTaulukko div {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .vahvuudetTeksti {
+        padding-top: 60px;
+    }
+    .vahvuudetTeksti h4 {
+        width: 450px;
     }
 }
 
@@ -245,6 +401,55 @@ td {
     }
     .kuvaus2 p {
         padding: 25px 5px;
+    }
+    .tausta h4 {
+        margin-left: 43%;
+    }
+    .taustaTeksti p,
+    .tausta2Teksti p {
+        width: 500px;
+    }
+    .tausta2 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .vahvuudet {
+        height: 750px;
+        padding-left: 20px;
+    }
+    .vahvuudetTeksti {
+        padding-top: 20px;
+    }
+    .vahvuudetKuva {
+        padding-top: 40px;
+    }
+    .vahvuudetTeksti p {
+        font-size: 110%;
+        padding-right: 10px;
+    }
+    .haluatko {
+        padding-bottom: 20px;
+    }
+    .enniMika {
+        height: 660px;
+    }
+    .saavutukset {
+        padding: 30px 5px;
+    }
+    .saavutuksetOtsikko h4 {
+        width: 90%;
+    }
+    .saavutuksetTaulukko div {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .saavutuksetKuvat {
+        text-align: center;
+    }
+    .saavutuksetKuva {
+        margin: 20px auto;
     }
 }
 
@@ -280,6 +485,85 @@ td {
     .koira {
         margin: auto;
     }
+    .tausta {
+        height: auto;
+        padding-top: 20px;
+    }
+    .tausta h4 {
+        text-align: center;
+        margin: auto;
+        margin-top: 0px;
+        height: 40px;
+        padding-top: 0px;
+    }
+    .taustaKuva {
+        height: auto;
+        padding: 20px;
+    }
+    .mika1982,
+    .mika1994 {
+        margin: 0px 30px;
+        height: 450px;
+        width: auto;
+    }
+    .taustaTeksti {
+        height: auto;
+    }
+    .taustaTeksti,
+    .tausta2Teksti {
+        text-align: center;
+        height: auto;
+        padding-top: 0px;
+    }
+    .taustaTeksti p,
+    .tausta2Teksti p {
+        width: 700px;
+        padding-top: 20px;
+        font-size: 125%;
+        margin: auto;
+    }
+    .mika2001 {
+        margin: 10px auto;
+    }
+    .tausta2 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .vahvuudet {
+        height: auto;
+    }
+    .vahvuudetTeksti {
+        padding-top: 60px;
+    }
+    .vahvuudetTeksti p {
+        font-size: 110%;
+        padding-right: 20px;
+    }
+    .vahvuudetTeksti h4 {
+        font-size: 100%;
+        width: 90%;
+    }
+    .vahvuudetKuva {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #002E2D00;
+        margin-left: 20%;
+    }
+    .enniMika {
+        height: 450px;
+        padding: 10px;
+        background-color: #FFF;
+    }
+    .saavutuksetTaulukko {
+        padding-right: 0;
+    }
+    .saavutuksetTaulukko div {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .saavutuksetKuva {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -299,8 +583,79 @@ td {
         height: auto;
         width: 90%;
     }
+    .tausta {
+        height: auto;
+    }
+    .tausta h4 {
+        margin: 20px auto 10px;
+    }
+    .taustaKuva {
+        padding: 5px;
+    }
+    .mika1982,
+    .mika1994 {
+        margin: 10px 60px;
+        width: 325px;
+        height: auto;
+    }
+    .taustaTeksti {
+        height: auto;
+    }
+    .taustaTeksti p,
+    .tausta2Teksti p {
+        width: 90%;
+        font-size: 110%;
+    }
     .taulukko {
         margin: auto;
+    }
+    .vahvuudet {
+        height: auto;
+        padding-left: 0;
+    }
+    .vahvuudetTeksti {
+        padding-top: 40px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0;
+    }
+    .vahvuudetTeksti h4 {
+        padding: 0;
+        padding-bottom: 10px;
+        margin: auto;
+    }
+    .vahvuudetTeksti p {
+        padding: 0;
+        padding: 20px;
+        margin: auto;
+    }
+    .vahvuudetKuva {
+        padding-bottom: 40px;
+        background-color: #002E2D00;
+        margin: auto;
+    }
+    .enniMika {
+        background-color: #FFF;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .saavutukset {
+        padding: 10px;
+    }
+    .saavutuksetOtsikko h4 {
+        font-size: 90%;
+    }
+    .saavutuksetTaulukko div {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .saavutuksetKuva {
+        margin: 10px auto;
+        width: 80%;
     }
 }
 
@@ -325,7 +680,7 @@ td {
         height: 700px;
     }
     .taulukko {
-        max-width: 450px;
+        width: 450px;
         margin: auto;
     }
     th {
@@ -351,7 +706,7 @@ td {
     }
     .aboutMika2 {
         padding: 10px;
-        height: 650px;
+        height: auto;
     }
     .slogan {
         height: 150px;
@@ -359,6 +714,17 @@ td {
     .treenataan {
         font-size: 125%;
         padding: 20px;
+    }
+    .tausta {
+        height: auto;
+    }
+    .tausta h4 {
+        width: 80%;
+        font-size: 90%;
+    }
+    .mika1982,
+    .mika1994 {
+        margin: 10px auto;
     }
 }
 
@@ -388,11 +754,10 @@ td {
     }
     .aboutMika2 {
         padding: 10px;
-        height: 575px;
     }
     .kuvaus2 {
         font-size: 80%;
-        height: 260px;
+        height: auto;
     }
     .kuvaus2 p {
         padding: 10px;
@@ -407,8 +772,25 @@ td {
     .koulutus p {
         font-size: 105%;
     }
+    .tausta {
+        height: auto;
+    }
+    .taustaKuva {
+        height: 700px;
+    }
+    .taustaTeksti {
+        height: auto;
+        padding: 10px;
+    }
+    .mika1982,
+    .mika1994 {
+        width: 250px;
+    }
+    .mika2001 {
+        width: 300px;
+    }
     .taulukko {
-        max-width: 350px;
+        width: 350px;
     }
     th {
         font-size: 13px;
@@ -424,6 +806,11 @@ td {
     }
     .kuvaus {
         height: 550px;
+    }
+    .enniMika {
+        height: auto;
+        width: 90%;
+        padding: 10px;
     }
 }
 

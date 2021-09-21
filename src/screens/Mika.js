@@ -12,7 +12,10 @@ import koira from '../images/dogs.jpeg'
 import ohjauskuva from '../images/ohjaus.jpeg'
 import Mika1982 from '../images/mika1982.jpeg'
 import Mika2001 from '../images/mika2001.jpeg'
-import MikaVanha from '../images/mikaVanha.jpeg'
+import Mika1994 from '../images/mika1994.jpeg'
+import Johanna from '../images/johanna.jpeg'
+import Robert from '../images/robert.jpeg'
+import kisakuva from '../images/kisakuva.jpeg'
 
 const Mika = () => {
     return (
@@ -59,78 +62,71 @@ const Mika = () => {
                 <Col>
                     <p className="sloganit treenataan">”Treenataan tosissaan, mutta ei liian vakavasti”</p>
                 </Col>
+            </Row>            
+
+            <Row className="tausta rows">
+                <h4>Tausta ja omat saavutukset</h4>
+                <Col lg={5} sm={12} className="taustaKuva">
+                    <img src={Mika1982} alt="Mika vuonna 1982." className="mika1982" />
+                    <img src={Mika1994} alt="Mika vuonna 1994" className="mika1994" />
+                </Col>
+                <Col lg={7} sm={12} className="taustaTeksti">
+                    <p>Nuorempana harrastin yleisurheilua noin 10 vuoden ajan ja samalla judoa, josta viimeiset kaksi vuotta kilpailumielessä.</p>
+                    <p>Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen.Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
+                    <p>Kehonrakennus on ollut harrastuksena kilpailumielessä vuodesta 1979 alkaen reilut 20 vuotta, saavutuksina mm. SM-kultaa ja PM-hopeaa vuonna 1982.</p>
+                </Col>
+            </Row>
+
+            <Row className="tausta2 rows">
+                <Col lg={5} sm={12} className="tausta2Kuva">
+                    <img src={Mika2001} alt="Mika vuonna 2001." className="mika2001" />
+                </Col>
+                <Col lg={7} sm={12} className="tausta2Teksti">
+                    <p>Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa eli raskaassa sarjassa.</p>
+                </Col>
             </Row>
 
             <Row className="koulutus rows" >
                 <Col>
                     <h4>Koulutus</h4>
-
                     <p>Personal Trainer, FAF<br /><br />
                         Fitnessvalmentaja, SFU<br /><br />
                         Urheiluhieroja</p>
                 </Col>
-                {/*<Col>
-                    <img src={ohjauskuva} alt="Enni ja Mika" className="kuvat" />
-                </Col>*/}
-            </Row>
-
-            <Row className="tausta rows">
-                <Col>
-                    <h4>Tausta ja omat saavutukset</h4>
-
-                    <p>Nuorempana harrastin yleisurheilua noin 10 vuoden ajan ja samalla judoa, josta viimeiset kaksi vuotta kilpailumielessä. <br /><br />
-                        Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen. Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
-                </Col>
-                <Col>
-                    <img src={Mika1982} alt="Mika vuonna 1982." className="kuvat" />
-                </Col>
-            </Row>
-
-            <Row className="tausta2 rows">
-                <Col>
-                    <p>Kehonrakennus on ollut harrastuksena kilpailumielessä vuodesta 1979 alkaen reilut 20 vuotta, saavutuksina mm. SM-kultaa ja PM-hopeaa vuonna 1982.<br /><br />
-                        Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa eli raskaassa sarjassa.</p>
-                </Col>
-                <Col>
-                    <img src={Mika2001} alt="Mika vuonna 2001." className="kuvat" />
-                </Col>
             </Row>
 
             <Row className="vahvuudet rows">
-                <Col>
+                <Col xxl={7} lg={6} md={12} className="vahvuudetTeksti">
                     <h4>Erityisosaaminen ja vahvuuteni valmentajana</h4>
-
                     <p>Vahvuutenani on yli 40 vuoden kokemus kehonrakennus- ja kuntosaliharjoittelusta sekä erilaisten ruokavalioiden yksilöllisestä suunnittelusta niin kilpailijoille kuin kuntoilijoillekin.<br /><br />
                         Olen kunnianhimoinen, luotettava, kannustava ja sosiaalinen treenari, joka on aina täysillä mukana ja asiakkaan tukena.<br /><br />
                         Minulle on tärkeää saada tuloksia aikaan, ja asiakas ymmärtämään riittävän urheilun ja monipuolisen ruokavalion vaikutuksen kokonaisvaltaiseen hyvinvointiin.</p>
+                    <p className="tahtikunto">Kisatiimini <a href="https://www.instagram.com/teamtahtikunto/" target="_blank" rel="noreferrer">Team Tähtikunnon</a> päävalmentajana olen ollut jo toistakymmentä vuotta, samoin tuomarin tehtävissä body- ja fitnesskisoissa.<br /><br />
+                        Kokemusta ja kohtaamisia erilaisten ihmisten ja urheilijoiden kanssa siis löytyy, vaikka tässä työssä oppii koko ajan myös lisää. Se tekee työstäni erittäin mielenkiintoista.</p>
+                    <p className="haluatko">Haluatko sinäkin elämäsi kuntoon?</p>
                 </Col>
-                <Col></Col>
-            </Row>
-
-            <Row className="tahtikunto rows">
-                <Col>
-                    <h4>Team Tähtikunto ja kisat</h4>
-
-                    <p>Kisatiimini Team Tähtikunnon {/* tähän linkki @teamtahtikunto instaan*/}päävalmentajana olen ollut jo toistakymmentä vuotta, samoin tuomarin tehtävissä body- ja fitnesskisoissa.<br /><br />
-                        Kokemusta ja kohtaamisia erilaisten ihmisten ja urheilijoiden kanssa siis löytyy, vaikka tässä työssä oppii koko ajan myös lisää. Se tekee työstäni erittäin mielenkiintoisen.</p>
-
-                    <p>Haluatko sinäkin elämäsi kuntoon?</p>
+                <Col xxl={5} lg={6} md={12} className="vahvuudetKuva" >
+                    <img src={ohjauskuva} alt="Enni ja Mika" className="enniMika" />
                 </Col>
-                <Col></Col>
             </Row>
 
             <Row className="saavutukset rows">
-                <p>Valmentamieni urheilijoiden saavutuksia fitness- ja kehonrakennuskilpailuissa: </p>
-                <Col>
-                    <Saavutukset />
+                <Col sm={12} className="saavutuksetOtsikko">
+                    <h4>Valmentamieni urheilijoiden saavutuksia fitness- ja kehonrakennuskilpailuissa: </h4>
                 </Col>
-                <Col>
-                    tähän kuvia, ainakin Johanna ja Robert
+                <Col xl={7} md={6} sm={12} className="saavutuksetTaulukko" >
+                    <div>
+                        <Saavutukset />
+                    </div>                    
+                </Col>
+                <Col xl={5} md={6} sm={12} className="saavutuksetKuvat">
+                    <img src={Robert} alt="Robert" className="saavutuksetKuva" />
+                    <img src={Johanna} alt="Johanna" className="saavutuksetKuva" />
+                    <img src={kisakuva} alt="kisakuva" className="saavutuksetKuva" />
                 </Col>
             </Row>
 
         </Container>
-
     )
 }
 

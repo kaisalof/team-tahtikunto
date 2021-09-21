@@ -38,7 +38,7 @@ const Tiimi = () => {
                     <img src={EnniKisa} alt="Enni kisoissa" className="tiimiKuva" />
                 </Col>
             </Row>
-            <Row className="jasmin tiimi">
+        {/*}    <Row className="jasmin tiimi">
                 <Col xs={4}>
                     <img src={Jasmin} alt="Jasmin" className="tiimiKuva" />
                 </Col>
@@ -50,7 +50,7 @@ const Tiimi = () => {
                 <Col xs={4}>
                     tähän kuva
                 </Col>
-            </Row>
+            </Row>*/}
             <Row className="henna tiimi">
                 <Col xs={4}>
                     <img src={Henna} alt="Henna" className="tiimiKuva" />
