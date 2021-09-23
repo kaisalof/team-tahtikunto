@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 body {
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -10,24 +11,8 @@ body {
     color: #000;
 }
 
-.tiimiPage {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
 
-.tiimiHeader {
-    text-align: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.tiimi {
-    height: 100vh;
-    border: 1px solid black;
-    padding: 30px 60px;
-}
+/*Väliaikainen*/
 
 .tiimiKuva {
     width: 50%;
@@ -37,4 +22,204 @@ p {
     font-size: 125%;
 }
 
-.enni {}
+.tiimiPage {
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-right: 0px;
+}
+
+.tiimiHeader {
+    height: 90vh;
+}
+
+.tiimiHeader {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #FE9A6280;
+    padding-right: 0px;
+}
+
+.headerColumn {
+    padding-right: 0px;
+}
+
+.tiimiHeader h1 {
+    text-transform: uppercase;
+    color: #002E2D;
+    letter-spacing: 5px;
+    padding: 30px 0px;
+    width: 90%;
+    margin: auto;
+    background-color: #FFF;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.tiimiHeader img {
+    height: 30%;
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tiimiHeader p {
+    font-size: 135%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 15px;
+    color: #002E2D;
+}
+
+.tiimiHeader .haluatko {
+    font-family: 'Style Script', cursive;
+    font-size: 200%;
+}
+
+.tiimi,
+.tiimi2 {
+    height: 95vh;
+    text-align: center;
+    padding: 30px;
+    color: #002E2D;
+    border-top: 2px solid #FFF;
+}
+
+.tiimi {
+    background-color: #FF850120;
+}
+
+.tiimi2 {
+    background-color: #FE9A6250;
+}
+
+.tiimi h4,
+.tiimi2 h4 {
+    font-size: 300%;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.tiimi h5,
+.tiimi2 h5 {
+    font-family: 'Style Script', cursive;
+    font-size: 150%;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.tiimiKuva {
+    height: 500px;
+    width: auto;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+}
+
+.kuvaYksi {
+    margin-right: 20px;
+}
+
+.kuvaKaksi {
+    margin-left: 20px;
+}
+
+.teksti p {
+    color: #002E2D99;
+    padding: 10px 150px;
+}
+
+.nea .teksti p {
+    padding: 10px 100px;
+}
+
+@media screen and (max-width: 1100px) {
+    .tiimiHeader p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .tiimi,
+    .tiimi2 {
+        height: auto;
+    }
+    .henna {
+        padding: 30px 5px;
+    }
+    .henna .kuvaYksi {
+        margin-right: 5px;
+    }
+    .henna .kuvaKaksi {
+        margin-left: 5px;
+    }
+    .teksti p {
+        padding: 10px 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tiimiHeader {
+        height: auto;
+    }
+    .tiimiHeader img {
+        height: auto;
+        width: 80%;
+    }
+    .tiimiKuva {
+        height: auto;
+        width: 400px;
+        border: 3px solid #FFF;
+        border-radius: 3px;
+    }
+    .henna {
+        padding: 30px;
+    }
+    .henna .kuvaYksi,
+    .henna .kuvaKaksi {
+        margin: 10px 50px;
+    }
+    .kuvaYksi,
+    .kuvaKaksi {
+        margin: 10px 50px;
+    }
+    .teksti p,
+    .nea .teksti p {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tiimiHeader img {
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .tiimiHeader p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .teksti p,
+    .nea .teksti p {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tiimiHeader h1 {
+        font-size: 150%;
+        padding: 20px 0px;
+    }
+    .tiimiHeader p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tiimiKuva {
+        width: 90%;
+    }
+    .kuvaYksi,
+    .kuvaKaksi,
+    .henna .kuvaYksi,
+    .henna .kuvaKaksi {
+        margin: 10px auto;
+    }
+}

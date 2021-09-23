@@ -12,23 +12,12 @@ body {
     color: #000;
 }
 
-
-/*tää on vaan väliaikainen*/
-
-.kuvat {
-    width: 20%;
-    border: 10px solid #FFF;
-}
-
 p {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     color: #002E2D90;
 }
 
-.rows {}
-
 .mika {
-    /*background: linear-gradient(#FFF, #002E2D);*/
     width: auto;
     margin: 0;
     padding: 0;

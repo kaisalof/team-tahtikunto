@@ -13,12 +13,12 @@ const Palvelut = () => {
 
             <h4>Ravintovalmennus</h4>
             <h5>Olet mitä syöt!</h5>
-            <p>Painonhallinnassa ruokavalion osuus on 80–90 % eli kaikkein suurin. Laadukas ruokavalio sisältää hyviä hiilihydraatteja, rasvoja, proteiineja ja suojaravintoaineita. Tavallisen kuntoilijan ei kuitenkaan tarvitse laskea kaloreita, etenemme perusruoalla ja maalaisjärjellä. Ravinnolla on erittäin tärkeä merkitys urheilussa, etenkin kehon kiinteytymisessä, lihasten kasvattamisessa ja palautumisessa.</p>
-            <p>Laitetaan sinunkin ruokavaliosi yhdessä kuntoon, syödään riittävästi ja monipuolisesti!</p>
+            <p>Painonhallinnassa ruokavalion osuus on 80–90 % eli kaikkein suurin. Laadukas ruokavalio sisältää hyviä hiilihydraatteja, rasvoja, proteiineja ja suojaravintoaineita. Tavallisen kuntoilijan ei kuitenkaan tarvitse laskea kaloreita, etenemme perusruoalla ja maalaisjärjellä. Ravinnolla on erittäin tärkeä merkitys urheilussa, etenkin kehon kiinteytymisessä, lihasten kasvattamisessa ja palautumisessa.<br />
+            Laitetaan sinunkin ruokavaliosi yhdessä kuntoon, syödään riittävästi ja monipuolisesti!</p>
 
             <h4>Kilpailuvalmennus</h4>
-            <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.</p>
-            <p>Vastuuvalmentajana toimii Mika Korhonen. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja Enni Sinisalo, ja liikkuvuusharjoittelua valmentaa Jasmin Sarin.</p>
+            <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br />
+            Vastuuvalmentajana toimii Mika Korhonen. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja Enni Sinisalo.</p>
         </div>
     )
 }

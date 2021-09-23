@@ -180,6 +180,7 @@ body {
     .navigation {
         display: table;
         margin-right: 20px;
+        border-bottom: 1px solid #FE9A62;
     }
     .linkTo {
         width: 100%;
