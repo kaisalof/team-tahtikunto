@@ -302,10 +302,15 @@ p {
     margin-bottom: 30px;
 }
 
+.saavutuksetTaulukko {
+    text-align: right;
+}
+
 .saavutuksetTaulukko div {
+    margin: auto;
     width: 500px;
-    margin-top: 20px;
     margin-left: 20%;
+    margin-top: 20px;
 }
 
 th {
@@ -317,11 +322,12 @@ th {
 td {
     font-size: 16px;
     letter-spacing: 0.5px;
+    text-align: left;
 }
 
 .saavutuksetKuvat {
     padding-top: 20px;
-    width: 50%;
+    text-align: left;
 }
 
 .saavutuksetKuva {
@@ -329,7 +335,6 @@ td {
     padding: 10px;
     background-color: #FFF;
     margin: 20px;
-    margin-right: 120px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -418,16 +423,9 @@ td {
         width: 90%;
     }
     .saavutuksetTaulukko div {
-        width: 95%;
         margin: auto;
         margin-top: 20px;
         margin-left: 30px;
-    }
-    .saavutuksetKuvat {
-        text-align: center;
-    }
-    .saavutuksetKuva {
-        margin: 20px auto;
     }
 }
 
@@ -534,14 +532,17 @@ td {
         background-color: #FFF;
     }
     .saavutuksetTaulukko {
-        padding-right: 0;
+        text-align: center;
     }
     .saavutuksetTaulukko div {
-        margin-left: 10px;
-        margin-right: 0;
+        margin: 20px auto;
+    }
+    .saavutuksetKuvat {
+        padding-top: 10px;
+        text-align: center;
     }
     .saavutuksetKuva {
-        width: 80%;
+        margin-bottom: 10px;
     }
 }
 
@@ -578,9 +579,6 @@ td {
     .tausta2Teksti p {
         width: 90%;
         font-size: 110%;
-    }
-    .taulukko {
-        margin: auto;
     }
     .vahvuudet {
         height: auto;
@@ -628,13 +626,13 @@ td {
         font-size: 90%;
     }
     .saavutuksetTaulukko div {
-        width: 95%;
+        width: 90%;
+        padding: 0;
         margin: auto;
         margin-top: 20px;
     }
     .saavutuksetKuva {
         margin: 10px auto;
-        width: 80%;
     }
 }
 
@@ -651,10 +649,6 @@ td {
 @media screen and (max-width: 650px) {
     .aboutMika2 {
         height: 700px;
-    }
-    .taulukko {
-        width: 450px;
-        margin: auto;
     }
     th {
         font-size: 15px;
@@ -740,14 +734,15 @@ td {
     .mika2001 {
         width: 300px;
     }
-    .taulukko {
-        width: 350px;
-    }
     th {
         font-size: 13px;
     }
     td {
         font-size: 12px;
+    }
+    .saavutuksetKuva {
+        margin: 5px auto;
+        width: 85%;
     }
 }
 
