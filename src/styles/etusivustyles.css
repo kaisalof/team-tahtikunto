@@ -61,11 +61,11 @@ body {
 
 .secondText {
     background-color: #002E2D95;
-    color: #FFF;
 }
 
 .secondText p {
     padding: 250px 100px 0 100px;
+    color: #FFF;
 }
 
 .thirdRow {

@@ -37,12 +37,6 @@ p {
     letter-spacing: 3px;
 }
 
-.aboutMika {
-    background-color: #002E2D10;
-    padding: 40px;
-    height: 90vh;
-}
-
 .sloganit {
     font-family: 'Great Vibes', cursive;
     text-align: center;
@@ -50,29 +44,32 @@ p {
     font-size: 200%;
 }
 
+.aboutMika {
+    background-color: #002E2D10;
+    height: 90vh;
+}
+
 .aboutMikaKuva {
-    height: 80vh;
-    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 40px;
 }
 
 .mikanKuva {
-    height: 100%;
+    height: 95%;
     border: 20px solid #FFF;
     margin: auto;
-    margin-left: 30px;
-    margin-top: 10px;
 }
 
 .kuvaus {
     height: 100%;
-    font-size: 110%;
 }
 
 .kuvaus p {
     color: #002E2D95;
-    padding-top: 180px;
-    padding-right: 100px;
-    padding-left: 50px;
+    padding-top: 200px;
+    padding-right: 200px;
+    font-size: 140%;
 }
 
 .aboutMika2 {
@@ -336,11 +333,6 @@ td {
 }
 
 @media screen and (max-width: 1500px) {
-    .kuvaus p {
-        padding-top: 120px;
-        padding-left: 150px;
-        padding-right: 50px;
-    }
     .kuvaus2 {
         font-size: 95%;
     }
@@ -353,6 +345,19 @@ td {
 }
 
 @media screen and (max-width: 1400px) {
+    .aboutMikaKuva {
+        text-align: center;
+        height: 100%;
+        padding-top: 60px;
+    }
+    .mikanKuva {
+        height: 90%;
+    }
+    .kuvaus p {
+        padding-top: 180px;
+        padding-right: 50px;
+        font-size: 130%;
+    }
     .vahvuudetTeksti {
         padding-top: 60px;
     }
@@ -362,24 +367,8 @@ td {
 }
 
 @media screen and (max-width: 1250px) {
-    .aboutMika {
-        height: 700px;
-        padding: 20px;
-    }
-    .kuvaus {
-        font-size: 100%;
-    }
     .kuvaus p {
-        padding-top: 120px;
-        padding-left: 120px;
-        padding-right: 0px;
-    }
-    .aboutMikaKuva {
-        height: 100%;
-    }
-    .mikanKuva {
-        margin-top: 0;
-        margin-left: 10px;
+        font-size: 120%;
     }
     .aboutMika2 {
         height: 500px;
@@ -444,21 +433,22 @@ td {
 
 @media screen and (max-width: 992px) {
     .aboutMika {
-        height: 950px;
-        text-align: center;
+        height: auto;
     }
     .aboutMikaKuva {
-        height: 600px;
+        padding: 30px 10px;
     }
     .mikanKuva {
-        margin: auto;
+        height: 500px;
+        border: 10px solid #FFF;
     }
     .kuvaus {
-        font-size: 90%;
-        height: 350px;
+        height: auto;
     }
     .kuvaus p {
-        padding: 20px 50px;
+        padding-right: 20px;
+        padding-top: 70px;
+        font-size: 110%;
     }
     .aboutMika2 {
         text-align: center;
@@ -556,12 +546,6 @@ td {
 }
 
 @media screen and (max-width: 800px) {
-    .aboutMika {
-        height: 1000px;
-    }
-    .kuvaus {
-        height: 400px;
-    }
     .kuvaus2 {
         height: auto;
     }
@@ -631,6 +615,12 @@ td {
 }
 
 @media screen and (max-width: 768px) {
+    .aboutMikaKuva {
+        padding: 20px;
+    }
+    .kuvaus p {
+        padding: 20px 30px;
+    }
     .saavutukset {
         padding: 10px;
     }
@@ -649,12 +639,6 @@ td {
 }
 
 @media screen and (max-width: 700px) {
-    .aboutMika {
-        height: 1050px;
-    }
-    .kuvaus {
-        height: 450px;
-    }
     .slogan {
         padding: 35px;
     }
@@ -681,17 +665,8 @@ td {
 }
 
 @media screen and (max-width: 600px) {
-    .aboutMika {
-        height: 1000px;
-    }
-    .aboutMikaKuva {
-        height: 500px;
-    }
-    .kuvaus {
-        height: 500px;
-    }
     .kuvaus p {
-        padding: 15px 20px;
+        font-size: 100%;
     }
     .aboutMika2 {
         padding: 10px;
@@ -727,19 +702,6 @@ td {
     }
     .sloganit {
         font-size: 120%;
-    }
-    .aboutMika {
-        height: 850px;
-    }
-    .aboutMikaKuva {
-        height: 400px;
-    }
-    .kuvaus {
-        height: 450px;
-        font-size: 80%;
-    }
-    .kuvaus p {
-        padding: 20px;
     }
     .aboutMika2 {
         padding: 10px;
@@ -790,27 +752,9 @@ td {
 }
 
 @media screen and (max-width: 425px) {
-    .aboutMika {
-        height: 950px;
-    }
-    .kuvaus {
-        height: 550px;
-    }
     .enniMika {
         height: auto;
         width: 90%;
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .aboutMika {
-        padding: 10px;
-    }
-    .mikanKuva {
-        border: solid 5px #FFF;
-    }
-    .kuvaus p {
         padding: 10px;
     }
 }

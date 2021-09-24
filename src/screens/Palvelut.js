@@ -19,6 +19,8 @@ const Palvelut = () => {
             <h4>Kilpailuvalmennus</h4>
             <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br />
             Vastuuvalmentajana toimii Mika Korhonen. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja Enni Sinisalo.</p>
+            
+            <h4>Hieronta</h4>
         </div>
     )
 }

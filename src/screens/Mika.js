@@ -21,25 +21,25 @@ const Mika = () => {
     return (
         <Container fluid className="mika">
 
-            <Row className="topRow rows">
+            <Row className="topRow">
                 <Col sm={12}>
                     <h1>Mika Korhonen</h1>
                     <p className="sloganit">"Rakkaudesta rautaan"</p>
                 </Col>
             </Row>
 
-            <Row className="aboutMika rows">
-                <Col lg={4} className="aboutMikaKuva" >
+            <Row className="aboutMika">
+                <Col xl={5} lg={6} md={5} sm={12} className="aboutMikaKuva" >
                     <img src={MikanKuva} alt="Mika" className="mikanKuva" />
                 </Col>
-                <Col lg={8} className="kuvaus">
-                    <p>Valmennan asiakkaitani vuosikymmenien kokemuksella ja ammattitaidolla. Asiakaskuntani koostuu sekä tavoitteellisista urheilijoista ja kisaajista että peruskuntoilijoista.<br /><br />
+                <Col xl={7} lg={6} md={7} sm={12} className="kuvaus">
+                    <p>Valmennan asiakkaitani vuosikymmenten kokemuksella ja ammattitaidolla. Asiakaskuntani koostuu sekä tavoitteellisista urheilijoista ja kisaajista että peruskuntoilijoista.<br /><br />
                         Vanhempana valmentajana tiedän myös, kuinka tärkeää on sekä toimintakyvyn säilyttäminen että lihaskunnon ylläpitäminen etenkin vanhemmalla iällä. Seniori-ikäisten valmennus onkin muodostunut minulle sydämen asiaksi.<br /><br />
                         Olen itsekin kilpaillut kehonrakennuksessa, mutta viimeisen kymmenen vuoden ajan olen kuntoillut ja kuntouttanut itseäni muutamista vammoista. Kuntouttamiseen liittyvät haasteet, motivaatio ja tekeminen ovat siis minulle erittäin tuttuja asioita.</p>
                 </Col>
             </Row>
 
-            <Row className="aboutMika2 rows">
+            <Row className="aboutMika2">
                 <Col xl={true} lg={4} xs={12} className="kuvaus2">
                     <p>Itse rentoudun parhaiten metsässä koirieni kanssa ja teen lenkin lähes joka aamu. Siitä saan voimaa ja energiaa, jota haluan jakaa myös valmennettavilleni.<br /><br />
                         Minulle on tärkeää, että saamme yhdessä asiakkaan toivomia tuloksia aikaan, kuitenkin aina terveys ja hyvinvointi edellä. Tavoitteeni on, että jokainen saisi urheilusta ja kuntoilusta ikuisen ystävän.<br /><br />
@@ -58,13 +58,13 @@ const Mika = () => {
                 </Col>
             </Row>
 
-            <Row className="slogan rows" >
+            <Row className="slogan" >
                 <Col>
                     <p className="sloganit treenataan">”Treenataan tosissaan, mutta ei liian vakavasti”</p>
                 </Col>
             </Row>            
 
-            <Row className="tausta rows">
+            <Row className="tausta">
                 <h4>Tausta ja omat saavutukset</h4>
                 <Col lg={5} sm={12} className="taustaKuva">
                     <img src={Mika1982} alt="Mika vuonna 1982." className="mika1982" />
@@ -77,7 +77,7 @@ const Mika = () => {
                 </Col>
             </Row>
 
-            <Row className="tausta2 rows">
+            <Row className="tausta2">
                 <Col lg={5} sm={12} className="tausta2Kuva">
                     <img src={Mika2001} alt="Mika vuonna 2001." className="mika2001" />
                 </Col>
@@ -86,7 +86,7 @@ const Mika = () => {
                 </Col>
             </Row>
 
-            <Row className="koulutus rows" >
+            <Row className="koulutus" >
                 <Col>
                     <h4>Koulutus</h4>
                     <p>Personal Trainer, FAF<br /><br />
@@ -95,7 +95,7 @@ const Mika = () => {
                 </Col>
             </Row>
 
-            <Row className="vahvuudet rows">
+            <Row className="vahvuudet">
                 <Col xxl={7} lg={6} md={12} className="vahvuudetTeksti">
                     <h4>Erityisosaaminen ja vahvuuteni valmentajana</h4>
                     <p>Vahvuutenani on yli 40 vuoden kokemus kehonrakennus- ja kuntosaliharjoittelusta sekä erilaisten ruokavalioiden yksilöllisestä suunnittelusta niin kilpailijoille kuin kuntoilijoillekin.<br /><br />
@@ -110,7 +110,7 @@ const Mika = () => {
                 </Col>
             </Row>
 
-            <Row className="saavutukset rows">
+            <Row className="saavutukset">
                 <Col sm={12} className="saavutuksetOtsikko">
                     <h4>Valmentamieni urheilijoiden saavutuksia fitness- ja kehonrakennuskilpailuissa: </h4>
                 </Col>
