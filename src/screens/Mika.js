@@ -112,7 +112,7 @@ const Mika = () => {
 
             <Row className="saavutukset">
                 <Col sm={12} className="saavutuksetOtsikko">
-                    <h4>Valmentamieni urheilijoiden saavutuksia fitness- ja kehonrakennuskilpailuissa: </h4>
+                    <h4>Tiimiläisteni saavutuksia fitness- ja kehonrakennuskilpailuissa: </h4>
                 </Col>
                 <Col lg={7} md={12} sm={12} className="saavutuksetTaulukko" >
                     <div>

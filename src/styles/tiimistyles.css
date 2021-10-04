@@ -16,19 +16,24 @@ body {
 }
 
 .tiimiHeader {
-    height: 90vh;
+    height: auto;
 }
 
-.tiimiHeader {
+.headerColumn {
+    height: 100%;
+}
+
+.headerColumn {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #FE9A6280;
 }
 
-.tiimiHeader h1 {
+.headerColumn h1 {
     text-transform: uppercase;
     color: #002E2D;
     letter-spacing: 5px;
+    height: 95px;
     padding: 30px 0px;
     width: 90%;
     margin: auto;
@@ -36,14 +41,14 @@ body {
     border-radius: 0px 0px 40px 40px;
 }
 
-.tiimiHeader img {
-    height: 30%;
+.headerColumn img {
+    height: 550px;
     background-color: #FFF;
     padding: 20px;
     margin: 20px;
 }
 
-.tiimiHeader p {
+.headerColumn p {
     font-size: 135%;
     padding-left: 200px;
     padding-right: 200px;
@@ -51,14 +56,15 @@ body {
     color: #002E2D;
 }
 
-.tiimiHeader .haluatko {
+.headerColumn .haluatko {
     font-family: 'Style Script', cursive;
     font-size: 200%;
+    padding-bottom: 40px;
 }
 
 .tiimi,
 .tiimi2 {
-    height: 95vh;
+    height: auto;
     text-align: center;
     padding: 30px;
     color: #002E2D;
@@ -110,12 +116,12 @@ body {
 
 .teksti p {
     color: #002E2D99;
-    padding: 10px 150px;
+    padding: 30px 150px;
     font-size: 125%;
 }
 
 .nea .teksti p {
-    padding: 10px 100px;
+    padding: 30px 100px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -142,9 +148,6 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .tiimiHeader {
-        height: auto;
-    }
     .tiimiHeader img {
         height: auto;
         width: 80%;

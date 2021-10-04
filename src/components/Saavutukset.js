@@ -56,6 +56,11 @@ const Saavutukset = () => {
                         Junioreiden SM-kisoissa 10. sija</td>
                 </tr>
                 <tr>
+                    <th>2018</th>
+                    <td><b>Maria Juvas</b><br />
+                    Bikini fitness -163 cm  SM-kisat, 4.sija</td>
+                </tr>
+                <tr>
                     <th>2017</th>
                     <td><b>Sonja Wilmari</b><br />
                         Bikini fitness beginners +168 cm, 2. sija<br />

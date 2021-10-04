@@ -28,7 +28,7 @@ body {
 }
 
 .firstText p {
-    padding-top: 200px;
+    padding-top: 250px;
     padding-left: 250px;
 }
 
@@ -36,10 +36,10 @@ body {
 /*korjaa leveys ja korkeus, koska firstrown korkeus on 90vh*/
 
 .etusivuKuva {
-    border: 2px solid #FE9A62;
+    border: 3px solid #FE9A62;
     height: 80vh;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .secondRow {
@@ -122,7 +122,6 @@ body {
         font-size: 90%;
     }
     .etusivuKuva {
-        border: 2px solid #FE9A62;
         height: 40%;
         padding: 15px;
         margin-top: 0;

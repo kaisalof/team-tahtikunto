@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-
+//Kun navia painetaan, scrollaa sivu valitun sivun yläosaan
 const Navigation = () => {
     const [click, setClick] = useState(false)
 

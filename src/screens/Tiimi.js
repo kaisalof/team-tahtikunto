@@ -16,6 +16,8 @@ import Kia from '../images/kia.jpeg'
 import Kia2 from '../images/kia2.jpeg'
 import Nea from '../images/nea.jpeg'
 import Nea2 from '../images/nea2.jpeg'
+import Noora from '../images/noora.jpeg'
+import NooraKampaukset from '../images/nooraKampaukset.jpeg'
 import Satu from '../images/satu1.jpeg'
 import Satu2 from '../images/satu22.jpeg'
 
@@ -72,7 +74,23 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="nea tiimi">
+            <Row className="noora tiimi">
+                <Col sm={12}>
+                    <h4>Noora</h4>
+                    <h5>Kampaaja</h5>
+                </Col>
+                <Col sm={12}>
+                    <img src={Noora} alt="Noora" className="tiimiKuva kuvaYksi" />
+                    <img src={NooraKampaukset} alt="Nooran tekemiä kampauksia" className="tiimiKuva kuvaKaksi" />
+                </Col>
+                <Col className="teksti" sm={12}>
+                    <p>
+                        Tähän Nooran kuvaus :)
+                    </p>
+                </Col>
+            </Row>
+
+            <Row className="nea tiimi2">
                 <Col sm={12}>
                     <h4>Nea</h4>
                 </Col>
@@ -89,7 +107,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="kia tiimi2">
+            <Row className="kia tiimi">
                 <Col sm={12}>
                     <h4>Kia</h4>
                 </Col>
@@ -106,7 +124,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="inga tiimi">
+            <Row className="inga tiimi2">
                 <Col sm={12}>
                     <h4>Inga</h4>
                 </Col>
@@ -123,7 +141,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="satu tiimi2">
+            <Row className="satu tiimi">
                 <Col sm={12}>
                     <h4>Satu</h4>
                 </Col>
