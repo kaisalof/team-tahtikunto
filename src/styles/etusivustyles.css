@@ -32,9 +32,6 @@ body {
     padding-left: 250px;
 }
 
-
-/*korjaa leveys ja korkeus, koska firstrown korkeus on 90vh*/
-
 .etusivuKuva {
     border: 3px solid #FE9A62;
     height: 80vh;
@@ -94,7 +91,7 @@ body {
         padding-left: 50px;
     }
     .secondText p {
-        padding-top: 200px;
+        padding-top: 240px;
     }
     .tokaRiviKuva {
         margin-top: 35%;
@@ -107,8 +104,8 @@ body {
 
 @media screen and (max-width: 1200px) {
     .secondText p {
-        padding: 220px 30px 0 30px;
-        font-size: 90%;
+        padding: 240px 30px 0 30px;
+        font-size: 100%;
     }
 }
 
@@ -140,12 +137,12 @@ body {
 
 @media screen and (max-width: 992px) {
     .tokaRiviKuva {
-        margin-top: 35%;
+        margin-top: 130px;
         border: none;
     }
     .secondText p {
-        padding: 150px 10px 0 10px;
-        font-size: 65%;
+        padding: 160px 10px 0 10px;
+        font-size: 90%;
     }
 }
 
@@ -175,11 +172,12 @@ body {
         border: 10px solid #FFF;
     }
     .secondText {
-        height: 250px;
+        height: auto;
+        padding: 20px;
     }
     .secondText p {
         padding: 30px 10px;
-        font-size: 65%;
+        font-size: 80%;
     }
     .col-md-4 {
         padding: 5px;

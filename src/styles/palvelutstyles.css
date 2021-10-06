@@ -6,3 +6,256 @@
     background-position: center;
     height: 50vh;
 }*/
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+}
+
+.palvelutTop {
+    text-align: center;
+    background: url('/src/images/dumbbells.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.palvelutHeader {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    height: 475px;
+    letter-spacing: 3px;
+    padding-top: 200px;
+}
+
+.palvelutHeader h1 {
+    padding: 30px;
+    height: 100px;
+    text-shadow: 1px 1px 10px #002E2D;
+    border-bottom: 0.25px solid #FE9A62;
+    font-size: 300%;
+}
+
+.palvelutKuvaus {
+    height: auto;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 40px 0px 175px 0px;
+}
+
+.palvelutKuvaus p {
+    width: 100%;
+    margin: auto;
+    background-color: #FFFFFF99;
+    color: #000;
+    text-shadow: 0px 0px 5px #FFF;
+    font-size: 165%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.palvelutKuvaus1 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.palvelutKuvaus2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.erityis {
+    height: auto;
+    background-color: #FF850120;
+    text-align: center;
+    color: #002E2D99;
+    padding: 220px 40px;
+}
+
+.erityis h4 {
+    width: 1000px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 165%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FE9A6280;
+    text-shadow: 0px 0px 5px #FFF;
+}
+
+.erityis ul {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.erityis li {
+    font-size: 150%;
+    padding: 20px;
+    list-style-type: none;
+    color: #002E2D90;
+    transition: 0.4s;
+}
+
+.erityis li:hover {
+    font-size: 170%;
+    text-shadow: 0px 0px 5px #FFF;
+}
+
+.erityis .erityisAlin {
+    border-bottom: none;
+}
+
+.benefits {
+    height: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #002E2D80;
+    padding: 130px 40px;
+    text-align: center;
+}
+
+.benefitsBox {
+    color: #002E2D90;
+    background-color: #FFFFFF;
+    padding: 80px 60px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px 40px;
+    text-align: left;
+}
+
+.benefits h4 {
+    font-size: 175%;
+    color: #002E2D;
+    font-weight: lighter;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FE9A6280;
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.benefits ul {
+    list-style: none;
+    padding-left: 0;
+    list-style-position: outside;
+}
+
+.benefits ul li {
+    font-size: 140%;
+    padding: 10px 0px;
+}
+
+.benefits ul li::before {
+    color: #FF8501;
+    content: "\2022";
+    padding-right: 20px;
+    font-size: 135%;
+    /*font-weight: bold;
+    display: inline-block;
+    margin-left: -1em;
+    width: 2em;
+    content: "►";*/
+}
+
+.benefits p {
+    font-size: 140%;
+}
+
+.ohjausKuva {
+    background: url('/src/images/blackwhite.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.ravinto {}
+
+.ravinto .olet {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: #002E2D90;
+    font-size: 200%;
+}
+
+.kilpailu {}
+
+.hieronta {}
+
+@media screen and (max-width: 1100px) {
+    .erityis h4 {
+        width: 90%;
+        font-size: 150%;
+    }
+    .benefitsBox {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .palvelutKuvaus p {
+        font-size: 150%;
+    }
+    .erityis {
+        padding: 120px 40px;
+    }
+    .erityis h4 {
+        font-size: 130%;
+    }
+    .erityis li {
+        font-size: 125%;
+        padding: 20px 5px;
+    }
+    .erityis li:hover {
+        font-size: 140%;
+    }
+    .benefits {
+        padding: 100px 0px;
+    }
+    .benefits ul li,
+    .benefits p {
+        font-size: 125%;
+    }
+    .benefitsBox {
+        padding: 80px 30px;
+    }
+    .ohjausKuva {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .palvelutHeader h1 {
+        font-size: 250%;
+    }
+    .palvelutKuvaus p {
+        font-size: 125%;
+    }
+    .erityis {
+        padding: 80px 10px;
+    }
+    .benefits h4 {
+        font-size: 160%;
+        width: 90%;
+        padding-left: 20px;
+        margin: auto;
+    }
+    .ohjausKuva {
+        height: 40vh;
+    }
+}

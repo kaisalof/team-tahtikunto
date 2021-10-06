@@ -61,6 +61,11 @@ const Saavutukset = () => {
                     Bikini fitness -163 cm  SM-kisat, 4.sija</td>
                 </tr>
                 <tr>
+                    <th></th>
+                    <td><b>Janus Nyholm</b><br />
+                    Junioreiden SM-kisat Classic bodybuilding, 3. sija</td>
+                </tr>
+                <tr>
                     <th>2017</th>
                     <td><b>Sonja Wilmari</b><br />
                         Bikini fitness beginners +168 cm, 2. sija<br />

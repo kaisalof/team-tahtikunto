@@ -12,8 +12,8 @@ import Henna2 from '../images/henna2.jpeg'
 import Henna3 from '../images/henna3.jpeg'
 import Inga from '../images/inga.jpeg'
 import Inga2 from '../images/inga2.jpeg'
-import Kia from '../images/kia.jpeg'
-import Kia2 from '../images/kia2.jpeg'
+import Kia3 from '../images/kia3.jpeg'
+import Kia4 from '../images/kia4.jpeg'
 import Nea from '../images/nea.jpeg'
 import Nea2 from '../images/nea2.jpeg'
 import Noora from '../images/noora.jpeg'
@@ -85,7 +85,9 @@ const Tiimi = () => {
                 </Col>
                 <Col className="teksti" sm={12}>
                     <p>
-                        Tähän Nooran kuvaus :)
+                        Olen 43-vuotias parturi-kampaaja ja freelance-kouluttaja. Olen kilpaillut ja tehnyt liiketyötä hiusalalla vuodesta 2004 alkaen, joten pitkäjänteisyys, eri tilanteissa työskentely ja panostus on tuttua. Tarkoitan tällä, että ne tilanteet on toisinaan aivan jäätäviä ja yhden kisatyön valmistus saattaa viedä 3-9 kk ja lavalla olo on vain 5-20 minuuttia.<br />
+                        Hiuspesti teamille tuli lisänä, kun tapasin Mikan koutsia etsiessä ja samalla sitkeydellä lähdetään laittamaan kampaajaa elämänsä kuntoon. <br />
+                        Katsotaan kuinka pitkälle se tie vie, mutta hiukset on aina tiptop, koko teamillä.
                     </p>
                 </Col>
             </Row>
@@ -112,8 +114,8 @@ const Tiimi = () => {
                     <h4>Kia</h4>
                 </Col>
                 <Col sm={12}>
-                    <img src={Kia} alt="Kia" className="tiimiKuva kuvaYksi" />
-                    <img src={Kia2} alt="Kia" className="tiimiKuva kuvaKaksi" />
+                    <img src={Kia3} alt="Kia" className="tiimiKuva kuvaYksi" />
+                    <img src={Kia4} alt="Kia" className="tiimiKuva kuvaKaksi" />
                 </Col>
                 <Col className="teksti" sm={12}>
                     <p>
