@@ -3,7 +3,7 @@ import React from 'react'
 
 // kuvat
 import MikanKuva from '../images/mika.jpeg'
-import HennaSoutu from '../images/hennasoutu.jpeg'
+import OhjausHenna from '../images/ohjausHenna.jpeg'
 import Enni from '../images/enni.jpeg'
 import Jasmin from '../images/jasminHauis.jpeg'
 import Henna from '../images/henna.jpeg'
@@ -26,7 +26,7 @@ const Etusivu = () => {
 
             <Row className="secondRow">
                 <Col xl={5} lg={6} md={5} className="secondImage">
-                    <img src={HennaSoutu} alt="HennaSoutu" className="tokaRiviKuva" />
+                    <img src={OhjausHenna} alt="OhjausHenna" className="tokaRiviKuva" />
                 </Col>
                 <Col xl={7} lg={6} md={7} className="secondText">
                     <p>Meiltä saat kaikki pt-palvelut ammattitaidolla ja monen kymmenen vuoden kokemuksella. Teemme jokaiselle asiakkaalle yksilölliset ohjelmat, koska sekä ihmiset että tavoitteet ovat erilaisia. Harjoittelu ja ravinto ovat kokonaisvaltaisen hyvinvoinnin perusta. Kuntoilusta ja ruoasta pitää nauttia tavoitteesta riippumatta. Terveelliset elämäntavat auttavat jaksamaan arjessa paremmin sekä ylläpitävät parempaa vastustuskykyä.</p>

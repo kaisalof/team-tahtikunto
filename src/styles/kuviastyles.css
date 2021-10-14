@@ -1,0 +1,13 @@
+.galleria {
+    padding: 20px 30px;
+}
+
+.galleria div div img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .galleria {
+        padding: 20px;
+    }
+}
