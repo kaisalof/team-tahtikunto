@@ -66,7 +66,7 @@ const Palvelut = () => {
                 <h4>Urheiluhieronta</h4>
                 <p>Sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a></p>
                 <p>Cygnaeuksenkatu 12, 00100 Helsinki</p>
-                <p>hinnasto</p>
+                {/* <p>hinnasto</p>*/}
             </div>
         </div>
     )

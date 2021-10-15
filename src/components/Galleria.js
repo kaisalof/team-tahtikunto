@@ -2,10 +2,10 @@ import React from 'react'
 import Gallery from 'react-photo-gallery'
 import { photos } from './photos'
 
-const BasicRows = () =>{
-    return(
-      < Gallery margin={4} photos={photos} />  
-    )
-} 
+const Galleria = () => {
+  return (
+    <Gallery margin={4} photos={photos} />
+  )
+}
 
-export default BasicRows
+export default Galleria

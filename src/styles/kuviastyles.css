@@ -1,13 +1,95 @@
 .galleria {
-    padding: 20px 30px;
+    padding: 20px 10px;
+    width: 100%;
 }
 
-.galleria div div img {
-    margin: 10px;
+.kuvat {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kuvat .kuva {
+    padding: 5px;
+    height: 450px;
+    transition: 0.4s;
+}
+
+
+/*mieti vielä toi position, nyt navi jää piiloon*/
+
+.kuvaJaTeksti {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+/*Tekstin sijainti*/
+
+.kuvaJaTeksti div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+/*Muokkaa hover viä  tonne eri kokosiin*/
+
+
+/*rivin viimenen kuva pomppii*/
+
+.kuvaJaTeksti:hover {
+    cursor: pointer;
+}
+
+.kuvaJaTeksti:hover .kuva {
+    /*height: 700px;*/
+    padding: 5px 10px;
+}
+
+.kuvaJaTeksti:hover div {
+    width: auto;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+}
+
+
+/*.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}*/
+
+@media screen and (max-width: 1500px) {
+    .kuvat .kuva {
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .galleria {
-        padding: 20px;
+        padding: 20px 10px;
+    }
+    .kuvat .wide {
+        height: auto;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .kuvat .kuva {
+        height: auto;
+        width: 95%;
     }
 }
