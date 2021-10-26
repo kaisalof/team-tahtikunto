@@ -2,7 +2,7 @@ import '../styles/palvelutstyles.css'
 import React from 'react'
 
 import ruoka from '../images/ruoka.jpeg'
-
+/*, että valmennukset alkavat 111.60/KK (se sisältää treenin, kaikki ohjeet + ohjelmat ja alv.%) */
 const Palvelut = () => {
     return (
         <div>
@@ -48,12 +48,12 @@ const Palvelut = () => {
             <div className="ravinto">
                 <h4>Ravintovalmennus</h4>
                 <p className="olet">Olet mitä syöt!</p>
-                <img src={ruoka} alt="ruokakuva" className="ruokakuva" />
                 <p>Painonhallinnassa ruokavalion osuus on 80–90 % eli kaikkein suurin. Laadukas ruokavalio sisältää hyviä
                     hiilihydraatteja, rasvoja, proteiineja ja suojaravintoaineita. Tavallisen kuntoilijan ei kuitenkaan
                     tarvitse laskea kaloreita, etenemme perusruoalla ja maalaisjärjellä. Ravinnolla on erittäin tärkeä
                     merkitys urheilussa, etenkin kehon kiinteytymisessä, lihasten kasvattamisessa ja palautumisessa.<br />
                     Laitetaan sinunkin ruokavaliosi yhdessä kuntoon, syödään riittävästi ja monipuolisesti!</p>
+                <img src={ruoka} alt="ruokakuva" className="ruokakuva" />
             </div>
 
             <div className="kilpailu">

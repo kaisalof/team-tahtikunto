@@ -193,6 +193,10 @@ body {
     font-size: 200%;
 }
 
+.ravinto .ruokakuva {
+    width: 600px;
+}
+
 .kilpailu {}
 
 .hieronta {}

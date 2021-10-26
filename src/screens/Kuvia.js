@@ -1,7 +1,7 @@
 import '../styles/kuviastyles.css'
 import React from 'react'
-//import Galleria from '../components/Galleria'
-import auto from '../images/photos/auto.jpeg' //1 1
+import Galleria from '../components/Galleria'
+/*import auto from '../images/photos/auto.jpeg' //1 1
 import Conan from '../images/photos/conan.jpeg' // 16 9
 import Enni from '../images/photos/enniEtu.jpeg' //3 2
 import EnniHauis from '../images/photos/enniHauis.jpeg' //3 2
@@ -32,9 +32,16 @@ import Robert from '../images/photos/robert.jpeg' //16 9
 import ruoka from '../images/photos/ruoka.jpeg' //4 3
 import ruoka1 from '../images/photos/ruoka1.jpeg' //4 3
 import ruoka2 from '../images/photos/ruoka2.jpeg'//4 3
-import tuomari from '../images/photos/tuomari.jpeg'//3 2 
-//<Galleria />
+import tuomari from '../images/photos/tuomari.jpeg'//3 2 */
 
+const Kuvia = () => {
+    return (
+        <div className="galleria">
+            <Galleria />
+        </div>
+    )
+}
+/*
 const Kuvia = () => {
     return (
         <div className="galleria">
@@ -64,7 +71,7 @@ const Kuvia = () => {
                 </div>
                 <div className="kuvaJaTeksti">
                     <img src={HennaSoutu} alt="Henna, yhden käden soutu" className="kuva  wide" />
-                    <div>"Henna, yhden käden soutu</div>
+                    <div>Henna, yhden käden soutu</div>
                 </div>
                 <div className="kuvaJaTeksti">
                     <img src={EnniHauis} alt="Enni, hauiskääntö" className="kuva  narrow" />
@@ -168,52 +175,6 @@ const Kuvia = () => {
             </div>
         </div>
     )
-}
+}*/
 
 export default Kuvia
-/*
-<div className="kuvaJaTeksti">
-
-                    <div></div>
-                </div>
-                <img src={} alt="" className="kuva" />*/
-/*  1
-src: MikajaHenna3,
-src: MikajaEnni,
-src: Johanna,
-src: ruoka1,
-src: EnniKehitys,
-2
-    src: HennaSoutu,
-    src: Robert,
-    src: IngaTalja,
-    src: Marjo,
-    src: Juha,
-    3
-    src: JohannaKehitys,
-    src: tuomari,
-    src: MikajaInga,
-    src: Henna,
-    4
-    src: MikaNuorempi,
-    src: JasminKehitys,
-    src: Enni,
-    src: auto,
-    src: Maria,
-    5
-    src: ruoka,
-    src: Juha3,
-    src: EnniTakaa,
-    src: MikajaHenna,
-    src: IngaKehitys,
-    6
-    src: MikajaEnni2,
-    src: Conan,
-    src: Kaisa
-    src: MikajaHenna2,
-    src: ruoka2,
-    7
-    src: koira,
-    src: MikaNuori,
-
-] */

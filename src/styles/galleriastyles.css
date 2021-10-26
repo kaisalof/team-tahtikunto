@@ -1,0 +1,17 @@
+/*.gallery {
+    visibility: hidden;
+    background-color: aliceblue;
+    color: black;
+}
+
+.gallery img:hover {
+    background-color: aliceblue;
+    color: black;
+    margin: 20px;
+}
+
+.imageText {
+    background-color: aliceblue;
+    color: black;
+    position: absolute;
+}*/
