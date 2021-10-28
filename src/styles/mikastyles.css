@@ -721,18 +721,18 @@ td {
         height: auto;
     }
     .taustaKuva {
-        height: 700px;
+        height: auto;
     }
     .taustaTeksti {
         height: auto;
-        padding: 10px;
+        padding: 0 10px 30px;
     }
     .mika1982,
     .mika1994 {
-        width: 250px;
+        width: 90%;
     }
     .mika2001 {
-        width: 300px;
+        width: 95%;
     }
     th {
         font-size: 13px;

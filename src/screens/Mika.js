@@ -1,9 +1,7 @@
 import '../styles/mikastyles.css'
 import React from 'react'
 import Saavutukset from '../components/Saavutukset'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Container, Row, Col } from 'react-bootstrap'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 //kuvat

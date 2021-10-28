@@ -8,9 +8,7 @@ import Enni from '../images/enni.jpeg'
 import Jasmin from '../images/jasminHauis.jpeg'
 import Henna from '../images/henna.jpeg'
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const Etusivu = () => {
     return (
