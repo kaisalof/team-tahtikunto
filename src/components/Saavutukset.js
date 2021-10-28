@@ -25,8 +25,8 @@ const Saavutukset = () => {
                     <th></th>
                     <td><b>Enni Sinisalo</b><br />
                     Bikini fitness -168 cm, SM-pronssia<br />
-                    ??? Junioreiden avoin sarja PM 4. sija<br />
-                    ???Yleinen sarja PM 5. sija</td>
+                    Junioreiden avoin sarja -169 cm, PM 4. sija<br />
+                    Yleinen sarja -169 cm, PM 5. sija</td>
                 </tr>
                 <tr>
                     <th></th>

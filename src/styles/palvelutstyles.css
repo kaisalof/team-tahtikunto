@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 /*.koulutusKuva {
     background: url('/src/images/blackwhiteop.png');
     background-repeat: no-repeat;
@@ -17,6 +19,7 @@ body {
     color: #B05600;
     color: #002E2D;
     color: #000;
+    height: auto;
 }
 
 .palvelutTop {
@@ -182,24 +185,295 @@ body {
     object-fit: cover;
     background-position: center;
     height: 90vh;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
 }
 
-.ravinto {}
+.ravinto {
+    background-color: #FF850120;
+    color: #002E2D99;
+    height: auto;
+    padding-bottom: 10px;
+}
 
-.ravinto .olet {
-    font-family: 'Great Vibes', cursive;
+.ravinto h4 {
     text-align: center;
-    color: #002E2D90;
-    font-size: 200%;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top: 40px;
+    font-size: 300%;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 2px #FFF;
+    color: #002E2D99;
+}
+
+.kuvaTeksti {
+    width: 100%;
+    padding: 20px;
+}
+
+.kuvaTeksti .kuvaTekstiDiv {
+    width: 60%;
+    float: left;
+    padding: 80px 100px 0px 100px;
 }
 
 .ravinto .ruokakuva {
-    width: 600px;
+    width: 40%;
+    float: left;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
 }
 
-.kilpailu {}
+.ravinto .ravintoTeksti {
+    font-size: 170%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
 
-.hieronta {}
+.ravinto .olet {
+    font-family: 'Great Vibes', cursive;
+    font-size: 300%;
+    color: #FF8501;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -40px;
+}
+
+.kuvaTeksti:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kilpailu {
+    background-color: #002E2D80;
+    height: auto;
+}
+
+.kilpailu h4 {
+    font-family: 'Style Script', cursive;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-size: 350%;
+    border-bottom: 1px solid #FE9A62;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 60px;
+    width: 335px;
+    margin: auto;
+    line-height: 80%;
+}
+
+.kilpailuDiv {
+    width: 100%;
+    padding: 30px 30px 40px 30px;
+}
+
+.kilpailuDiv img {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.kilpailuDiv p {
+    width: 75%;
+    float: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    font-size: 175%;
+    padding: 175px 40px 0 40px;
+}
+
+.nimiLinkki {
+    font-family: 'Style Script', cursive;
+    color: #FE9A62;
+    font-size: 120%;
+}
+
+.nimiLinkki:hover {
+    color: #002E2D;
+}
+
+.kilpailuDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hinnat {
+    text-align: center;
+    background-color: #FF850120;
+    color: #002E2D99;
+    height: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 100px;
+}
+
+.hinnat h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.hinnat .hinnatKuvaus {
+    font-size: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hinnat .hinnatSis {
+    color: #002E2D;
+    border-bottom: 1px solid #FE9A6280;
+    width: 325px;
+    margin: auto;
+    transition: 0.3s;
+    font-size: 200%;
+}
+
+.hinnat p {
+    padding: 5px;
+    margin: 0;
+}
+
+.hinnatDiv {
+    background-color: #FFFFFF90;
+    margin: auto;
+    width: 750px;
+    padding: 30px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.hinnatDiv:hover .hinnatSis {
+    width: 400px;
+}
+
+.hinnat ul {
+    list-style: none;
+    padding-top: 30px;
+    color: #002E2D;
+    padding-bottom: 20px;
+}
+
+.hinnat ul li {
+    margin-left: -30px;
+    font-size: 150%;
+    padding: 10px;
+}
+
+.mayors {
+    color: #002E2D99;
+    text-transform: uppercase;
+}
+
+.mayors:hover {
+    color: #FF8501;
+}
+
+.hinnat .alkaen {
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-left: 0px;
+    font-size: 200%;
+}
+
+.linkkiDiv {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.yhteydenottoLinkki {
+    color: #FFF;
+    background-color: #FF850199;
+    width: 200px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 25px;
+    font-size: 175%;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+}
+
+.yhteydenottoLinkki:hover {
+    background-color: #FFF;
+    color: #FF850199;
+    border: 1px solid #FF850199;
+}
+
+.hieronta {
+    background-color: #FF850190;
+    color: #FFF;
+    padding: 60px 80px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.hieronta h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+    border-bottom: 2px solid #FF8501;
+    width: 275px;
+}
+
+.hieronta p {
+    color: #FFF;
+    font-size: 200%;
+}
+
+.hieronta p a {
+    font-family: 'Style Script', cursive;
+    font-size: 110%;
+    color: #002E2D;
+    text-shadow: 1px 1px 10px #FFF;
+}
+
+.hieronta p a:hover {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 10px #002E2D;
+}
+
+@media screen and (max-width: 1500px) {
+    .kuvaTeksti .kuvaTekstiDiv {
+        width: 50%;
+        padding: 50px 50px 0px 50px;
+    }
+    .ravinto .ravintoTeksti {
+        font-size: 150%;
+    }
+    .ravinto .ruokakuva {
+        width: 50%;
+    }
+    .kilpailuDiv img {
+        width: 35%;
+    }
+    .kilpailuDiv p {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .kuvaTeksti {
+        padding: 20px 50px;
+    }
+    .kuvaTeksti .kuvaTekstiDiv {
+        width: 100%;
+    }
+    .ravinto .ruokakuva {
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 40px;
+    }
+    .ravinto .olet {
+        margin-left: 0px;
+    }
+    .kilpailuDiv p {
+        padding: 125px 40px 0 40px;
+    }
+}
 
 @media screen and (max-width: 1100px) {
     .erityis h4 {
@@ -208,6 +482,16 @@ body {
     }
     .benefitsBox {
         width: 90%;
+    }
+    .kilpailuDiv p {
+        padding: 100px 20px 0 20px;
+        font-size: 150%;
+    }
+    .hinnat {
+        padding: 100px 20px;
+    }
+    .hinnatDiv {
+        width: 70%;
     }
 }
 
@@ -241,6 +525,81 @@ body {
     .ohjausKuva {
         height: 60vh;
     }
+    .kuvaTeksti .kuvaTekstiDiv {
+        padding: 20px;
+        text-align: center;
+    }
+    .ravinto .ruokakuva {
+        padding: 20px;
+    }
+    .kilpailuDiv {
+        padding: 30px 20px 40px 20px;
+    }
+    .kilpailuDiv img,
+    .kilpailuDiv p {
+        width: 50%;
+    }
+    .kilpailuDiv p {
+        padding-right: 0;
+    }
+    .hinnatDiv {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .kilpailuDiv {
+        padding: 60px 20px 40px 20px;
+    }
+    .kilpailuDiv img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .kilpailuDiv p {
+        text-align: center;
+        width: 100%;
+        padding: 80px 10px;
+    }
+    .hinnat {
+        padding: 80px 10px;
+    }
+    .hinnatDiv {
+        width: 90%;
+    }
+    .hinnat .hinnatKuvaus,
+    .hinnat .hinnatSis,
+    .hinnat .alkaen {
+        font-size: 150%;
+    }
+    .hinnat ul li {
+        font-size: 125%;
+    }
+    .hinnat .hinnatSis {
+        width: 80%;
+    }
+    .hinnatDiv:hover .hinnatSis {
+        width: 90%;
+    }
+    .hieronta {
+        padding: 60px 10%;
+    }
+    .hieronta h4 {
+        font-family: 'PT Sans Narrow', sans-serif;
+        text-transform: uppercase;
+        font-size: 200%;
+        border-bottom: 2px solid #FF8501;
+        width: 225px;
+    }
+    .hieronta p {
+        color: #FFF;
+        font-size: 150%;
+    }
+    .hieronta p a {
+        font-family: 'Style Script', cursive;
+        font-size: 110%;
+        color: #002E2D;
+        text-shadow: 1px 1px 10px #FFF;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -259,7 +618,30 @@ body {
         padding-left: 20px;
         margin: auto;
     }
+    .ravinto h4 {
+        font-size: 250%;
+    }
+    .kuvaTeksti {
+        padding: 10px;
+    }
     .ohjausKuva {
         height: 40vh;
+    }
+    .ravinto .ruokakuva {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .kilpailu h4 {
+        font-size: 300%;
+    }
+    .kilpailuDiv {
+        padding: 40px 20px 40px 20px;
+    }
+    .kilpailuDiv p {
+        padding: 40px 10px;
+    }
+    .yhteydenottoLinkki {
+        font-size: 150%;
     }
 }

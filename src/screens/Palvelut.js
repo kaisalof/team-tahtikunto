@@ -1,8 +1,10 @@
 import '../styles/palvelutstyles.css'
 import React from 'react'
 
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 import ruoka from '../images/ruoka.jpeg'
-/*, että valmennukset alkavat 111.60/KK (se sisältää treenin, kaikki ohjeet + ohjelmat ja alv.%) */
+import EnniNFE from '../images/enniNFE.jpeg'
+
 const Palvelut = () => {
     return (
         <div>
@@ -47,25 +49,52 @@ const Palvelut = () => {
 
             <div className="ravinto">
                 <h4>Ravintovalmennus</h4>
-                <p className="olet">Olet mitä syöt!</p>
-                <p>Painonhallinnassa ruokavalion osuus on 80–90 % eli kaikkein suurin. Laadukas ruokavalio sisältää hyviä
-                    hiilihydraatteja, rasvoja, proteiineja ja suojaravintoaineita. Tavallisen kuntoilijan ei kuitenkaan
-                    tarvitse laskea kaloreita, etenemme perusruoalla ja maalaisjärjellä. Ravinnolla on erittäin tärkeä
-                    merkitys urheilussa, etenkin kehon kiinteytymisessä, lihasten kasvattamisessa ja palautumisessa.<br />
-                    Laitetaan sinunkin ruokavaliosi yhdessä kuntoon, syödään riittävästi ja monipuolisesti!</p>
-                <img src={ruoka} alt="ruokakuva" className="ruokakuva" />
+                <div className="kuvaTeksti">
+                    <div className="kuvaTekstiDiv">
+                        <p className="ravintoTeksti">Painonhallinnassa ruokavalion osuus on 80–90 % eli kaikkein suurin. Laadukas ruokavalio sisältää hyviä
+                            hiilihydraatteja, rasvoja, proteiineja ja suojaravintoaineita. Tavallisen kuntoilijan ei kuitenkaan
+                            tarvitse laskea kaloreita, etenemme perusruoalla ja maalaisjärjellä. Ravinnolla on erittäin tärkeä
+                            merkitys urheilussa, etenkin kehon kiinteytymisessä, lihasten kasvattamisessa ja palautumisessa.<br /><br />
+                            Laitetaan sinunkin ruokavaliosi yhdessä kuntoon, syödään riittävästi ja monipuolisesti!</p>
+                        <p className="olet">Olet mitä syöt!</p>
+                    </div>
+                    <img src={ruoka} alt="ruokakuva" className="ruokakuva" />
+                </div>
+
             </div>
 
             <div className="kilpailu">
                 <h4>Kilpailuvalmennus</h4>
-                <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br />
-                    Vastuuvalmentajana toimii Mika Korhonen. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja Enni Sinisalo.</p>
+                <div className="kilpailuDiv">
+                    <img src={EnniNFE} alt="Enni, NFE 2021" className="enni" />
+                    <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br /><br />
+                        Vastuuvalmentajana toimii <Link exact to="/mika" className="nimiLinkki">Mika Korhonen</Link>. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja <Link exact to="/tiimi" className="nimiLinkki">Enni Sinisalo</Link>.</p>
+                </div>
+            </div>
+
+            <div className="hinnat">
+                <h4>Hinnasto</h4>
+                <p className="hinnatKuvaus">Valmennuskokonaisuutta suunnitellessa huomioidaan aina asiakkaan toiveet ja tavoitteet. Lopullinen hinta määräytyy yhteisten tapaamisten määrästä ja suunnitelmasta.</p>
+                <div className="hinnatDiv">
+                    <p className="hinnatSis">Jokainen valmennus sisältää:</p>
+                    <ul>
+                        <li>ohjattu tapaaminen valmentajan kanssa <a href="https://www.mayors.fi/" target="_blank" rel="noreferrer" className="mayors">Mayor's Gymilla</a></li>
+                        <li>treeniohjeet</li>
+                        <li>ravintovalmennus</li>
+                    </ul>
+                    <p></p>
+                    <p className="alkaen">hinnat alkaen 111,60 € / kk (sis. alv 24%)</p>
+                    <div className="linkkiDiv">
+                        <Link exact to="/yhteydenotto" className="yhteydenottoLinkki">Ota yhteyttä</Link>
+                    </div>
+                </div>
             </div>
 
             <div className="hieronta">
                 <h4>Urheiluhieronta</h4>
-                <p>Sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a></p>
-                <p>Cygnaeuksenkatu 12, 00100 Helsinki</p>
+                <p>Hierontapöytä sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a>.</p>
+                <p>Cygnaeuksenkatu 12,<br />
+                    00100 Helsinki</p>
                 {/* <p>hinnasto</p>*/}
             </div>
         </div>

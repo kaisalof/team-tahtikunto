@@ -12,6 +12,7 @@ import Henna2 from '../images/henna2.jpeg'
 import Henna3 from '../images/henna3.jpeg'
 import Inga from '../images/inga.jpeg'
 import Inga2 from '../images/inga2.jpeg'
+import Janne from '../images/janne.jpeg'
 import Kia3 from '../images/kia3.jpeg'
 import Kia4 from '../images/kia4.jpeg'
 import Nea from '../images/nea.jpeg'
@@ -74,7 +75,25 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="noora tiimi">
+            <Row className="janne tiimi" >
+                <Col sm={12}>
+                    <h4>Janne</h4>
+                    <h5>Huoltaja</h5>
+                </Col>
+                <Col sm={12}>
+                    <img src={Janne} alt="Janne" className="tiimiKuva kuvaYksi" />
+                    {/* <img src={} alt="" className="tiimiKuva kuvaKaksi" />*/}
+                </Col>
+                <Col className="teksti" sm={12}>
+                    <p>
+                        <br />
+                        <br />
+
+                    </p>
+                </Col>
+            </Row>
+
+            <Row className="noora tiimi2">
                 <Col sm={12}>
                     <h4>Noora</h4>
                     <h5>Kampaaja</h5>
@@ -92,7 +111,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="nea tiimi2">
+            <Row className="nea tiimi">
                 <Col sm={12}>
                     <h4>Nea</h4>
                 </Col>
@@ -109,7 +128,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="kia tiimi">
+            <Row className="kia tiimi2">
                 <Col sm={12}>
                     <h4>Kia</h4>
                 </Col>
@@ -126,7 +145,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="inga tiimi2">
+            <Row className="inga tiimi">
                 <Col sm={12}>
                     <h4>Inga</h4>
                 </Col>
@@ -143,7 +162,7 @@ const Tiimi = () => {
                 </Col>
             </Row>
 
-            <Row className="satu tiimi">
+            <Row className="satu tiimi2">
                 <Col sm={12}>
                     <h4>Satu</h4>
                 </Col>
