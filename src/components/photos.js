@@ -3,13 +3,13 @@ import Conan from '../images/photos/conan.jpeg' // 16 9
 import Enni from '../images/photos/enniEtu.jpeg' //3 2
 import EnniHauis from '../images/photos/enniHauis.jpeg' //3 2
 import EnniKehitys from '../images/photos/enniKehitys.jpeg' //1 1
-import EnniLava from '../images/photos/enniLava.jpeg' //3 2
-
+import EnniKisa from '../images/photos/enniKisa.jpeg'
 import EnniTakaa from '../images/photos/enniTakaa.jpeg' // 3 2
 import Henna from '../images/photos/henna.jpeg' //4 3
 import HennaSoutu from '../images/photos/hennasoutu.jpeg' //4 3
 import IngaKehitys from '../images/photos/ingaKehitys.jpeg' //1 1
 import IngaTalja from '../images/photos/ingaTalja.jpeg' //10 8
+import Jasmin from '../images/photos/jasmin.jpeg'
 import JasminKehitys from '../images/photos/jasminKehitys.jpeg' //1 1
 import Johanna from '../images/photos/johanna.jpeg' //3 2
 import JohannaKehitys from '../images/photos/johannaKehitys.jpeg' // 1 1
@@ -28,6 +28,8 @@ import MikajaHenna3 from '../images/photos/mikaHennaSoutu.jpeg' //3 2
 import MikajaInga from '../images/photos/mikaInga.jpeg' //1 1
 import MikaNuorempi from '../images/photos/mikaNuorempi.jpeg' //16 9
 import MikaNuori from '../images/photos/mikaNuori.jpeg' // 10 8
+import Noora1 from '../images/photos/noora1.jpeg'
+import Noora2 from '../images/photos/noora2.jpeg'
 import Robert from '../images/photos/robert.jpeg' //16 9
 import RobertNFE from '../images/photos/robertNFE.jpeg' //3 2
 import ruoka from '../images/photos/ruoka.jpeg' //4 3
@@ -36,11 +38,6 @@ import ruoka2 from '../images/photos/ruoka2.jpeg' //4 3
 import tuomari from '../images/photos/tuomari.jpeg' //3 2
 
 export const photos = [{
-        src: EnniLava,
-        width: 2,
-        height: 3,
-        alt: 'Enni NFE 2021'
-    }, {
         src: RobertNFE,
         width: 2,
         height: 3,
@@ -75,6 +72,11 @@ export const photos = [{
         width: 1,
         height: 1,
         alt: 'Ennin kehityskuva'
+    }, {
+        src: EnniKisa,
+        width: 2,
+        height: 3,
+        alt: 'Enni NFE 2021'
     }, {
         src: HennaSoutu,
         width: 4,

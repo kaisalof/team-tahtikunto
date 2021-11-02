@@ -6,7 +6,10 @@ const Footer = () => {
         <div className="footer">
             {/*SIJAINTI
             Valmennukset toteutetaan Mayor's Gymilla Helsingin Ruoholahdessa
-            Osoite tähän
+            Mayor’s Gym / Mayors ry
+            Kauppakeskus Ruoholahti 4 kerros
+            Itämerenkatu 21
+            00180 HELSINKI
 
             OTA YHTEYTTÄ
             Mika Korhonen, päävalmentaja

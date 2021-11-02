@@ -4,7 +4,7 @@ import '../styles/App.css'
 
 // screens
 import Etusivu from '../screens/Etusivu'
-import Kuvia from '../screens/Kuvia'
+import Galleria from '../screens/Galleria'
 import Mika from '../screens/Mika'
 import Palvelut from '../screens/Palvelut'
 import Tiimi from '../screens/Tiimi'
@@ -23,8 +23,8 @@ const Content = () => {
                 <Route path="/tiimi">
                     <Tiimi />
                 </Route>
-                <Route path="/kuvia">
-                    <Kuvia />
+                <Route path="/galleria">
+                    <Galleria />
                 </Route>
                 <Route path="/yhteydenotto">
                     <Yhteydenotto />

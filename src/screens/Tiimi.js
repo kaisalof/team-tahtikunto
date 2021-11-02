@@ -5,7 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 // kuvat 
 import tiimi from '../images/tiimi.jpeg'
 import Enni from '../images/enniVapaa.jpeg'
-import EnniKisa from '../images/enniKisa.jpeg'
+
+import EnniLava from '../images/enniLava.jpeg' //3 2
 import Henna2 from '../images/henna2.jpeg'
 import Henna3 from '../images/henna3.jpeg'
 import Inga from '../images/inga.jpeg'
@@ -43,7 +44,7 @@ const Tiimi = () => {
                 </Col>
                 <Col sm={12}>
                     <img src={Enni} alt="Enni" className="tiimiKuva kuvaYksi" />
-                    <img src={EnniKisa} alt="Enni kisoissa" className="tiimiKuva kuvaKaksi" />
+                    <img src={EnniLava} alt="Enni, NFE 2021" className="tiimiKuva kuvaKaksi" />
                 </Col>
                 <Col className="teksti" sm={12}>
                     <p>

@@ -61,12 +61,12 @@ const Navigation = () => {
                             <li className="links">
                                 <Link
                                     exact
-                                    to="/kuvia"
+                                    to="/galleria"
                                     activeClassName="active"
                                     className="linkTo"
                                     onClick={click ? handleClick : null}
                                 >
-                                    Kuvia
+                                    Galleria
                                 </Link>
                             </li>
                             <li className="links">

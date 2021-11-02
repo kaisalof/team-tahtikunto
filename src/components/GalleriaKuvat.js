@@ -2,9 +2,7 @@ import React from 'react'
 import Gallery from 'react-photo-gallery'
 import { photos } from './photos'
 
-
-
-const Galleria = () => {
+const GalleriaKuvat = () => {
 
   function testing(e) {
     //console.log(e.target.alt)
@@ -29,4 +27,4 @@ const Galleria = () => {
   )
 }
 
-export default Galleria
+export default GalleriaKuvat

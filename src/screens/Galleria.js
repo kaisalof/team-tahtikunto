@@ -1,6 +1,6 @@
 import '../styles/kuviastyles.css'
 import React from 'react'
-import Galleria from '../components/Galleria'
+import GalleriaKuvat from '../components/GalleriaKuvat'
 /*import auto from '../images/photos/auto.jpeg' //1 1
 import Conan from '../images/photos/conan.jpeg' // 16 9
 import Enni from '../images/photos/enniEtu.jpeg' //3 2
@@ -37,7 +37,7 @@ import tuomari from '../images/photos/tuomari.jpeg'//3 2 */
 const Kuvia = () => {
     return (
         <div className="galleria">
-            <Galleria />
+            <GalleriaKuvat />
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import ruoka from '../images/ruoka.jpeg'
-import EnniNFE from '../images/enniNFE.jpeg'
+import EnniMika from '../images/ennimikaNFE1.jpeg'
 
 const Palvelut = () => {
     return (
@@ -66,7 +66,7 @@ const Palvelut = () => {
             <div className="kilpailu">
                 <h4>Kilpailuvalmennus</h4>
                 <div className="kilpailuDiv">
-                    <img src={EnniNFE} alt="Enni, NFE 2021" className="enni" />
+                    <img src={EnniMika} alt="Enni ja Mika, NFE 2021" className="enni" />
                     <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br /><br />
                         Vastuuvalmentajana toimii <Link exact to="/mika" className="nimiLinkki">Mika Korhonen</Link>. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja <Link exact to="/tiimi" className="nimiLinkki">Enni Sinisalo</Link>.</p>
                 </div>

@@ -13,7 +13,13 @@ const Saavutukset = () => {
                 <tr>
                     <th>2021</th>
                     <td><b>Robert Nitz</b><br />
-                        Classic bodybuilding -180 cm, SM- ja PM-KULTAA</td>
+                        <b>NFE</b><br />
+                        Classic bodybuilding -180 cm, SM- ja PM-KULTAA<br />
+                        <b>Fitness Classic</b><br />
+                        Classic bodybuilding masters -sarja, kultaa<br />
+                        Classic bodybuilding yleinen sarja, hopeaa<br />
+                        Classic bodybuilding EM, 5. sija</td>
+
                 </tr>
                 <tr>
                     <th></th>
@@ -24,22 +30,16 @@ const Saavutukset = () => {
                 <tr>
                     <th></th>
                     <td><b>Enni Sinisalo</b><br />
-                    Bikini fitness -168 cm, SM-pronssia<br />
-                    Junioreiden avoin sarja -169 cm, PM 4. sija<br />
-                    Yleinen sarja -169 cm, PM 5. sija</td>
+                        Bikini fitness -168 cm, SM-pronssia<br />
+                        Junioreiden avoin sarja -169 cm, PM 4. sija<br />
+                        Yleinen sarja -169 cm, PM 5. sija</td>
                 </tr>
                 <tr>
                     <th></th>
                     <td><b>Besmellah Mardani</b><br />
                         Classic physique junioreiden SM-hopeaa</td>
                 </tr>
-                <tr>
-                    <th></th>
-                    <td><b>Robert Nitz</b><br />
-                        Fitness Classic, Classic bodybuilding masters -sarja, kultaa<br />
-                        Classic bodybuilding yleinen sarja, hopeaa<br />
-                        Classic bodybuilding EM, 5. sija</td>
-                </tr>
+
                 <tr>
                     <th>2020</th>
                     <td><b>Johanna Keikko</b><br />
