@@ -1,16 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 .footer {
-    text-align: center;
-    font-size: 75%;
     color: #FFF;
     background-color: #FF8501;
+    height: auto;
+    padding: 20px 20px 0 20px;
+}
+
+.footer .yhteys {
+    height: auto;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #002E2D;
+}
+
+.footer .yhteys h3 {
+    font-family: 'Style Script', cursive;
+    font-size: 200%;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.footer .yhteys .maili {
+    color: #FFF;
+    padding-left: 5px;
+}
+
+.footer .yhteys .insta,
+.footer .yhteys .face {
+    width: 40px;
+    opacity: 0.8;
+    margin: 20px 15px;
+}
+
+.footer .yhteys .face {
+    margin-left: 0;
+}
+
+.igLogo,
+.fbLogo {
+    float: left;
+}
+
+.somet {
+    margin: 0;
+}
+
+.somet:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer .kaisa {
+    text-align: center;
+    height: auto;
     padding: 10px;
 }
 
-.footer a {
+.footer .kaisa a {
+    font-size: 95%;
     text-decoration: none;
     color: #FFF;
 }
 
-.footer a:hover {
+.footer .yhteys a:hover,
+.footer .kaisa a:hover {
     color: #002E2D;
 }

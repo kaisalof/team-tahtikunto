@@ -194,7 +194,6 @@ body {
 @media screen and (max-width: 576px) {
     .headerColumn h1 {
         font-size: 150%;
-        /*padding: 20px 0px;*/
     }
     .headerColumn p {
         padding-left: 10px;
