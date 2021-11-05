@@ -1,95 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    color: #FE9A62;
+    color: #FF8501;
+    color: #B05600;
+    color: #002E2D;
+    color: #000;
+}
+
 .galleria {
-    padding: 20px 10px;
+    padding: 0px;
+    padding-bottom: 20px;
     width: 100%;
 }
 
-.kuvat {
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.galleria h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    background-color: #002E2D90;
+    margin: 0;
+    padding: 40px;
+    font-size: 225%;
+    font-weight: lighter;
 }
 
-.kuvat .kuva {
-    padding: 5px;
-    height: 450px;
+.galleria h2 a {
+    font-family: 'Style Script', cursive;
+    color: #FE9A62;
+    font-size: 125%;
     transition: 0.4s;
 }
 
-
-/*mieti vielä toi position, nyt navi jää piiloon*/
-
-.kuvaJaTeksti {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
+.galleria h2 a:hover {
+    color: #FFF;
+    text-shadow: 2px 2px 5px #FE9A62;
+    padding: 5px;
 }
 
-
-/*Tekstin sijainti*/
-
-.kuvaJaTeksti div {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: black;
-    color: white;
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
+.galleria h3 {
+    text-align: center;
+    border-top: 1px solid #002E2D90;
+    color: #002E2D90;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 200%;
+    letter-spacing: 1px;
 }
 
-
-/*Muokkaa hover viä  tonne eri kokosiin*/
-
-
-/*rivin viimenen kuva pomppii*/
-
-.kuvaJaTeksti:hover {
-    cursor: pointer;
-}
-
-.kuvaJaTeksti:hover .kuva {
-    /*height: 700px;*/
-    padding: 5px 10px;
-}
-
-.kuvaJaTeksti:hover div {
-    width: auto;
-    padding: 8px 15px;
-    visibility: visible;
-    opacity: 0.7;
-}
-
-
-/*.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}*/
-
-@media screen and (max-width: 1500px) {
-    .kuvat .kuva {
-        height: 400px;
+@media screen and (max-width: 900px) {
+    .galleria h2 {
+        text-align: center;
+        font-size: 200%;
     }
-}
-
-@media screen and (max-width: 800px) {
-    .galleria {
-        padding: 20px 10px;
-    }
-    .kuvat .wide {
-        height: auto;
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .kuvat .kuva {
-        height: auto;
-        width: 95%;
+    .galleria h3 {
+        font-size: 175%;
     }
 }

@@ -34,9 +34,11 @@ import ruoka1 from '../images/photos/ruoka1.jpeg' //4 3
 import ruoka2 from '../images/photos/ruoka2.jpeg'//4 3
 import tuomari from '../images/photos/tuomari.jpeg'//3 2 */
 
-const Kuvia = () => {
+const Galleria = () => {
     return (
         <div className="galleria">
+            <h2>Team Tähtikunnon tuoreimmat päivitykset löydät <a href="https://www.instagram.com/teamtahtikunto/" target="_blank" rel="noreferrer">instagramista</a></h2>
+            <h3>Kuvia vuosien varrelta</h3>
             <GalleriaKuvat />
         </div>
     )
@@ -177,4 +179,4 @@ const Kuvia = () => {
     )
 }*/
 
-export default Kuvia
+export default Galleria

@@ -41,13 +41,7 @@ const Mika = () => {
                 <Col xl={true} lg={4} xs={12} className="kuvaus2">
                     <p>Itse rentoudun parhaiten metsässä koirieni kanssa ja teen lenkin lähes joka aamu. Siitä saan voimaa ja energiaa, jota haluan jakaa myös valmennettavilleni.<br /><br />
                         Minulle on tärkeää, että saamme yhdessä asiakkaan toivomia tuloksia aikaan, kuitenkin aina terveys ja hyvinvointi edellä. Tavoitteeni on, että jokainen saisi urheilusta ja kuntoilusta ikuisen ystävän.<br /><br />
-                        <Link
-                            exact
-                            to="/palvelut"
-                            className="linkki"
-                        >
-                            Voit tutustua palveluihini tästä
-                        </Link>
+                        <Link exact to="/palvelut" className="linkki">Voit tutustua palveluihini tästä</Link>
                     </p>
 
                 </Col>
@@ -70,7 +64,7 @@ const Mika = () => {
                 </Col>
                 <Col lg={7} sm={12} className="taustaTeksti">
                     <p>Nuorempana harrastin yleisurheilua noin 10 vuoden ajan ja samalla judoa, josta viimeiset kaksi vuotta kilpailumielessä.</p>
-                    <p>Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen.Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
+                    <p>Samoihin aikoihin halusin lisää voimaa, joten isäni osti minulle kotiin Weiderin vinyylisarjan penkkeineen. Vuonna 1975 liityin Lappeenrannan atleettiklubiin ja salitreenit ovat olleet siitä asti mukana elämässäni tavalla tai toisella.</p>
                     <p>Kehonrakennus on ollut harrastuksena kilpailumielessä vuodesta 1979 alkaen reilut 20 vuotta, saavutuksina mm. SM-kultaa ja PM-hopeaa vuonna 1982.</p>
                 </Col>
             </Row>

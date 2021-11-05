@@ -1,11 +1,11 @@
 import '../styles/tiimistyles.css'
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 // kuvat 
-import tiimi from '../images/tiimi.jpeg'
+import tiimi from '../images/tiimikuva.jpeg'
 import Enni from '../images/enniVapaa.jpeg'
-
 import EnniLava from '../images/enniLava.jpeg' //3 2
 import Henna2 from '../images/henna2.jpeg'
 import Henna3 from '../images/henna3.jpeg'
@@ -32,8 +32,7 @@ const Tiimi = () => {
                         Team Tähtikunto on alunperin fitness-, fysiikka- ja kehonrakennuskilpailuja varten perustettu kisatiimi. Tähtikunnon valmennuksessa olevat kilpailijat edustavat tiimiä valitsemassaan lajissa.<br />
                         Tiimille järjestetään yhteisiä treenejä, poseerausharjoituksia ja leirejä, joissa hiotaan asentoja ja esiintymistä. Kilpailuihin urheilijoille järjestetään huolto ja stailaus eri alojen ammattilaisista koostuvasta yhteistyöverkostostamme.<br />
                     </p>
-
-                    <p className="haluatko">Haluatko sinäkin Tähtikuntoon?</p>
+                    <p><Link exact to="/yhteydenotto" className="haluatko">Haluatko sinäkin Tähtikuntoon?</Link></p>
                 </Col>
             </Row>
 

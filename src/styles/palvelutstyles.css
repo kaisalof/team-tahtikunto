@@ -83,6 +83,8 @@ body {
     text-align: center;
     color: #002E2D99;
     padding: 220px 40px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
 }
 
 .erityis h4 {
@@ -167,11 +169,6 @@ body {
     content: "\2022";
     padding-right: 20px;
     font-size: 135%;
-    /*font-weight: bold;
-    display: inline-block;
-    margin-left: -1em;
-    width: 2em;
-    content: "►";*/
 }
 
 .benefits p {
@@ -249,6 +246,8 @@ body {
 .kilpailu {
     background-color: #002E2D80;
     height: auto;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
 }
 
 .kilpailu h4 {
@@ -409,6 +408,7 @@ body {
     color: #FFF;
     padding: 60px 80px;
     font-family: 'PT Sans Narrow', sans-serif;
+    border-top: 1px solid #FFF;
 }
 
 .hieronta h4 {

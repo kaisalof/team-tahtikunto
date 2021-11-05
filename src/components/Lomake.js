@@ -17,13 +17,13 @@ const Lomake = () => {
                 console.log(result.text);
                 Swal.fire({
                     icon: 'success',
-                    title: 'Message Sent Succesfully'
+                    title: 'Viesti lähetetty onnistuneesti'
                 })
             }, (error) => {
                 console.log(error.text);
                 Swal.fire({
                     icon: 'error',
-                    title: 'Ooops, something went wrong',
+                    title: 'Ooops, jokin meni pieleen',
                     text: error.text
                 })
             });

@@ -68,7 +68,7 @@ const Palvelut = () => {
                 <div className="kilpailuDiv">
                     <img src={EnniMika} alt="Enni ja Mika, NFE 2021" className="enni" />
                     <p>Kilpaurheilijoiden hyvinvointi on aina etusijalla, vaikka pyrimmekin optimaaliseen kisakuntoon. Urheilijaksi ei synnytä, vaan siihen kasvetaan oppimisen kautta. Siksi valmennuksen pitää olla johdonmukaista ja määrätietoista.<br /><br />
-                        Vastuuvalmentajana toimii <Link exact to="/mika" className="nimiLinkki">Mika Korhonen</Link>. Tiimin poseerausvalmentajina toimivat Maija Jouhki ja <Link exact to="/tiimi" className="nimiLinkki">Enni Sinisalo</Link>.</p>
+                        Vastuuvalmentajana toimii <Link exact to="/mika" className="nimiLinkki">Mika Korhonen</Link>. Tiimin poseerausvalmentajina toimivat <a href="https://www.instagram.com/posingbymaija/" target="_blank" rel="noreferrer" className="nimiLinkki">Maija Jouhki</a> ja <Link exact to="/tiimi" className="nimiLinkki">Enni Sinisalo</Link>.</p>
                 </div>
             </div>
 
@@ -93,6 +93,7 @@ const Palvelut = () => {
             <div className="hieronta">
                 <h4>Urheiluhieronta</h4>
                 <p>Hierontapöytä sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a>.</p>
+                <p>Yhteydenotot puhelimitse Mikalle 040 591 5178</p>
                 <p>Cygnaeuksenkatu 12,<br />
                     00100 Helsinki</p>
                 {/* <p>hinnasto</p>*/}

@@ -42,8 +42,8 @@ body {
     height: auto;
     color: #002E2D;
     text-align: center;
-    border-top: 2px solid #FFF;
-    border-bottom: 2px solid #FFF;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
 }
 
 .secondImage {
