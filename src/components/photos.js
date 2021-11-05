@@ -274,7 +274,7 @@ export const photos = [{
         src: MikaNuori,
         width: 8,
         height: 10,
-        alt: 'Mika nuorena'
+        alt: 'Mika vuonna 1982'
     }]
     /*, {
 src: ,

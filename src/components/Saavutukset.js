@@ -19,7 +19,6 @@ const Saavutukset = () => {
                         Classic bodybuilding masters -sarja, kultaa<br />
                         Classic bodybuilding yleinen sarja, hopeaa<br />
                         Classic bodybuilding EM, 5. sija</td>
-
                 </tr>
                 <tr>
                     <th></th>
@@ -125,12 +124,12 @@ const Saavutukset = () => {
                 <tr>
                     <th>2014</th>
                     <td><b>Maarit Suomenkorpi</b><br />
-                        Bikini fitness masters +35 v -sarjassa 4.sija</td>
+                        Bodyfitness masters +35 v -sarjassa 4.sija</td>
                 </tr>
                 <tr>
                     <th>2013</th>
                     <td><b>Maarit Suomenkorpi</b><br />
-                        Bikini fitness masters-sarjan SM-kultaa</td>
+                        Bodyfitness masters-sarjan SM-kultaa</td>
                 </tr>
                 <tr>
                     <th></th>
@@ -145,14 +144,14 @@ const Saavutukset = () => {
                 <tr>
                     <th>2012</th>
                     <td><b>Maarit Suomenkorpi</b><br />
-                        Bikini fitness -tulokkaiden 7. sija</td>
+                        Bodyfitness -tulokkaiden 7. sija</td>
                 </tr>
                 <tr>
                     <th></th>
                     <td><b>Anne Nyman</b><br />
-                        Bikini fitness tulokkaiden kultaa Jyväskylässä<br />
-                        Bikini fitness +168cm SM-karsinnan kultaa Lappeenrannassa<br />
-                        Bikini fitness +168cm SM-hopeaa</td>
+                        Bodyfitness tulokkaiden kultaa Jyväskylässä<br />
+                        Bodyfitness +168cm SM-karsinnan kultaa Lappeenrannassa<br />
+                        Bodyfitness +168cm SM-hopeaa</td>
                 </tr>
                 <tr>
                     <th>2011</th>
@@ -164,25 +163,31 @@ const Saavutukset = () => {
                 <tr>
                     <th>2009</th>
                     <td><b>Anna Karrila</b><br />
-                        Nuorten Bikini fitness SM-1<br />
+                        Nuorten Bodyfitness SM-1<br />
                         Classic bodybuilding SM-kultaa<br />
-                        Bikini fitness pronssia</td>
+                        Bodyfitness pronssia</td>
                 </tr>
                 <tr>
                     <th></th>
                     <td><b>Maria Kuure</b><br />
-                        Bikini fitness +163 cm SM-kultaa<br />
+                        Bodyfitness +163 cm SM-kultaa<br />
                         Overall-voitto</td>
                 </tr>
                 <tr>
+                    <th></th>
+                    <td><b>Heli Mäkilä</b><br />
+                        Fitness Classic Bodyfitness +168 cm, hopeaa</td>
+                </tr>
+
+                <tr>
                     <th>2008</th>
                     <td><b>Anna Karrila</b><br />
-                        Nuorten Bikini fitness SM-1</td>
+                        Nuorten Bodyfitness SM-1</td>
                 </tr>
                 <tr>
                     <th>2007</th>
                     <td><b>Anna Karrila</b><br />
-                        Nuorten Bikini fitness SM-1</td>
+                        Nuorten Bodyfitness SM-1</td>
                 </tr>
                 <tr>
                     <th>2002</th>
@@ -194,3 +199,5 @@ const Saavutukset = () => {
     )
 }
 export default Saavutukset
+/*Huomasin just virheitä siellä kisailijoiden lajeissa... Karrila, Kuure,
+Suomenkorpi ym. Kaikilla lukee Bikinifitness vaikka lajina on Bodyfitness 🙋🏼‍♂️ */
