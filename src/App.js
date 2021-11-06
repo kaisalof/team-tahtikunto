@@ -12,14 +12,14 @@ import LogoName from './components/LogoName'
 const App = () => {
   return (
     <Router>
-      <div>       
-        <LogoName /> 
-        <Navigation />
-        <Content />
-        <Footer />
-      </div>
+      <LogoName />
+      <Navigation />
+      <Content />
+      <Footer />
     </Router>
   )
 }
 
 export default App
+// <div>
+//</div>
