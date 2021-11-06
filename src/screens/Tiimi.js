@@ -39,7 +39,7 @@ const Tiimi = () => {
             <Row className="enni tiimi" >
                 <Col sm={12}>
                     <h4>Enni</h4>
-                    <h5>Poseerausvalmentaja</h5>
+                    <h5>Urheilija / poseerausvalmentaja</h5>
                 </Col>
                 <Col sm={12}>
                     <img src={Enni} alt="Enni" className="tiimiKuva kuvaYksi" />

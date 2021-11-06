@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 //kuvat
-import MikanKuva from '../images/mika2.jpeg'
+import EnniMika from '../images/ennimikaNFE2.jpeg'
 import koira from '../images/dogs.jpeg'
 import ohjauskuva from '../images/ohjaus.jpeg'
 import Mika1982 from '../images/mika1982.jpeg'
@@ -28,7 +28,7 @@ const Mika = () => {
 
             <Row className="aboutMika">
                 <Col xl={5} lg={6} md={5} sm={12} className="aboutMikaKuva" >
-                    <img src={MikanKuva} alt="Mika" className="mikanKuva" />
+                    <img src={EnniMika} alt="Mika" className="mikanKuva" />
                 </Col>
                 <Col xl={7} lg={6} md={7} sm={12} className="kuvaus">
                     <p>Valmennan asiakkaitani vuosikymmenten kokemuksella ja ammattitaidolla. Asiakaskuntani koostuu sekä tavoitteellisista urheilijoista ja kisaajista että peruskuntoilijoista.<br /><br />

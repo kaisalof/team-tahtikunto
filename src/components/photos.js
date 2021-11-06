@@ -4,10 +4,10 @@ import Enni from '../images/photos/enniEtu.jpeg' //3 2
 import EnniHauis from '../images/photos/enniHauis.jpeg' //3 2
 import EnniKehitys from '../images/photos/enniKehitys.jpeg' //1 1
 import EnniKisa from '../images/photos/enniKisa.jpeg'
-import EnniMikaNFE from '../images/photos/ennimikaNFE2.jpeg' // 3 2
 import EnniTakaa from '../images/photos/enniTakaa.jpeg' // 3 2
 import Henna from '../images/photos/henna.jpeg' //4 3
 import HennaSoutu from '../images/photos/hennasoutu.jpeg' //4 3
+import Inga from '../images/photos/inga.jpeg'
 import IngaKehitys from '../images/photos/ingaKehitys.jpeg' //1 1
 import IngaTalja from '../images/photos/ingaTalja.jpeg' //10 8
 import Jasmin from '../images/photos/jasmin.jpeg' // 3 2
@@ -25,7 +25,7 @@ import Juha3 from '../images/photos/juha20113.jpeg' //1 1
 import Kaisa from '../images/photos/kaisa.jpeg' //4 3
 import koira from '../images/photos/koira.jpeg' //4 3
 import Maria from '../images/photos/mariajuvas.jpeg' //4 3 
-import Marjo from '../images/photos/marjo.jpeg' //3 2
+import Mika from '../images/photos/mika2.jpeg' //16 9
 import MikajaEnni from '../images/photos/mikaEnni.jpeg' //10 8
 import MikajaEnni2 from '../images/photos/mikaEnni2.jpeg' //3 2
 import MikajaHenna from '../images/photos/mikaHenna.jpeg' //3 2
@@ -51,10 +51,10 @@ height:,
 alt: ''} */
 
 export const photos = [{
-        src: EnniMikaNFE,
-        width: 2,
-        height: 3,
-        alt: 'Enni ja Mika, NFE 2021'
+        src: Mika,
+        width: 9,
+        height: 16,
+        alt: 'Mika'
     }, {
         src: RobertNFE,
         width: 2,
@@ -126,6 +126,11 @@ export const photos = [{
         height: 2,
         alt: 'Jasmin'
     }, {
+        src: Inga,
+        width: 2,
+        height: 3,
+        alt: 'Inga'
+    }, {
         src: HennaSoutu,
         width: 4,
         height: 3,
@@ -145,11 +150,6 @@ export const photos = [{
         width: 5,
         height: 7,
         alt: 'Jasmin'
-    }, {
-        src: Marjo,
-        width: 2,
-        height: 3,
-        alt: 'Marjo'
     }, {
         src: Juha,
         width: 1,

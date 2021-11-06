@@ -13,6 +13,7 @@ const Saavutukset = () => {
                 <tr>
                     <th>2021</th>
                     <td><b>Robert Nitz</b><br />
+                        Masters Games Classic bodybuilding 40-44 v, MM 5. sija<br />
                         <b>NFE</b><br />
                         Classic bodybuilding -180 cm, SM- ja PM-KULTAA<br />
                         <b>Fitness Classic</b><br />
