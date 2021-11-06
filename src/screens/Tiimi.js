@@ -30,7 +30,7 @@ const Tiimi = () => {
                     <img src={tiimi} alt="Team Tähtikunto" />
                     <p>
                         Team Tähtikunto on alunperin fitness-, fysiikka- ja kehonrakennuskilpailuja varten perustettu kisatiimi. Tähtikunnon valmennuksessa olevat kilpailijat edustavat tiimiä valitsemassaan lajissa.<br />
-                        Tiimille järjestetään yhteisiä treenejä, poseerausharjoituksia ja leirejä, joissa hiotaan asentoja ja esiintymistä. Kilpailuihin urheilijoille järjestetään huolto ja stailaus eri alojen ammattilaisista koostuvasta yhteistyöverkostostamme.<br />
+                        Tiimille järjestetään yhteisiä treenejä, tapaamisia, poseerausharjoituksia ja leirejä, joissa hiotaan asentoja ja esiintymistä. Kilpailuihin urheilijoille järjestetään huolto ja stailaus eri alojen ammattilaisista koostuvasta yhteistyöverkostostamme.<br />
                     </p>
                     <p><Link exact to="/yhteydenotto" className="haluatko">Haluatko sinäkin Tähtikuntoon?</Link></p>
                 </Col>

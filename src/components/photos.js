@@ -269,7 +269,7 @@ export const photos = [{
         src: koira,
         width: 3,
         height: 4,
-        alt: ''
+        alt: 'Sulo'
     }, {
         src: MikaNuori,
         width: 8,

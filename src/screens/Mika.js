@@ -4,7 +4,7 @@ import Saavutukset from '../components/Saavutukset'
 import { Container, Row, Col } from 'react-bootstrap'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-//kuvat
+//kuvat<br />
 import EnniMika from '../images/ennimikaNFE2.jpeg'
 import koira from '../images/dogs.jpeg'
 import ohjauskuva from '../images/ohjaus.jpeg'
@@ -74,7 +74,7 @@ const Mika = () => {
                     <img src={Mika2001} alt="Mika vuonna 2001." className="mika2001" />
                 </Col>
                 <Col lg={7} sm={12} className="tausta2Teksti">
-                    <p>Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa eli raskaassa sarjassa.</p>
+                    <p>Viimeisimpiin kisoihin osallistuin vuonna 2001, tuloksena SM-pronssia masters-sarjassa.</p>
                 </Col>
             </Row>
 

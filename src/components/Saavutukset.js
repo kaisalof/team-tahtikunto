@@ -55,7 +55,7 @@ const Saavutukset = () => {
                 <tr>
                     <th></th>
                     <td><b>Jasmin Sarin</b><br />
-                        Bikini fitness -158 cm, SM 8. sija</td>
+                        Bodyfitness -158 cm, SM 8. sija</td>
                 </tr>
                 <tr>
                     <th>2019</th>
@@ -77,7 +77,7 @@ const Saavutukset = () => {
                 <tr>
                     <th>2018</th>
                     <td><b>Maria Juvas</b><br />
-                        Bikini fitness -163 cm  SM-kisat, 4.sija</td>
+                        Bodyfitness -163 cm  SM-kisat, 4.sija</td>
                 </tr>
                 <tr>
                     <th></th>
