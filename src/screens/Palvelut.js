@@ -92,7 +92,7 @@ const Palvelut = () => {
 
             <div className="hieronta">
                 <h4>Urheiluhieronta</h4>
-                <p>Hierontapöytä sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a>.</p>
+                <p>Hierontapöytä sijaitsee Etu-Töölössä <a href="http://riitansalonki.com/" target="_blank" rel="noreferrer">Riitan Salongissa</a></p>
                 <p>Yhteydenotot puhelimitse Mikalle 040 591 5178</p>
                 <p>Cygnaeuksenkatu 12,<br />
                     00100 Helsinki</p>

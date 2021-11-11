@@ -92,7 +92,7 @@ const Mika = () => {
                     <h4>Erityisosaaminen ja vahvuuteni valmentajana</h4>
                     <p>Vahvuutenani on yli 40 vuoden kokemus kehonrakennus- ja kuntosaliharjoittelusta sekä erilaisten ruokavalioiden yksilöllisestä suunnittelusta niin kilpailijoille kuin kuntoilijoillekin.<br /><br />
                         Olen kunnianhimoinen, luotettava, kannustava ja sosiaalinen treenari, joka on aina täysillä mukana ja asiakkaan tukena.<br /><br />
-                        Minulle on tärkeää saada tuloksia aikaan, ja asiakas ymmärtämään riittävän urheilun ja monipuolisen ruokavalion vaikutuksen kokonaisvaltaiseen hyvinvointiin.</p>
+                        Minulle on tärkeää saada tuloksia aikaan ja asiakas ymmärtämään riittävän urheilun sekä monipuolisen ruokavalion vaikutuksen kokonaisvaltaiseen hyvinvointiin.</p>
                     <p className="tahtikunto">Kisatiimini <a href="https://www.instagram.com/teamtahtikunto/" target="_blank" rel="noreferrer">Team Tähtikunnon</a> päävalmentajana olen ollut jo toistakymmentä vuotta, samoin tuomarin tehtävissä body- ja fitnesskisoissa.<br /><br />
                         Kokemusta ja kohtaamisia erilaisten ihmisten ja urheilijoiden kanssa siis löytyy, vaikka tässä työssä oppii koko ajan myös lisää. Se tekee työstäni erittäin mielenkiintoista.</p>
                     <p className="haluatko">Haluatko sinäkin elämäsi kuntoon?</p>

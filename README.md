@@ -1,4 +1,6 @@
 #Linkki
 
-Täältä voit seurailla miten sivujen teko etenee:
-https://team-tahtikunto-testing.netlify.app/
+Sivujen ensimmäinen versio on valmis ja sivut löytyvät osoitteesta
+https://www.teamtahtikunto.com/
+
+Jatkossa parantelen vielä sivuja ja lisäilen kuvia.
