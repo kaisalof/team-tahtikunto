@@ -44,7 +44,58 @@ import ruoka2 from '../images/photos/ruoka2.jpeg' //4 3
 import tiimi from '../images/photos/tiimi.jpeg' //16 9
 import tuomari from '../images/photos/tuomari.jpeg' //3 2
 
-/*, {
+import Roosa from '../images/photos/roosa.jpeg' // 4 3
+import Rosa from '../images/photos/Rosa.jpeg' // 3 2
+import Mika123 from '../images/photos/mika123.jpeg' // 7 5
+import Sanni from '../images/photos/sanni.jpeg' // 16 9
+import Satumv from '../images/photos/satumv.jpeg' // 10 8
+import SM2021 from '../images/photos/SM2021.jpeg' // 16 9
+import ukki from '../images/photos/ukki.jpeg' // 3 2
+import Igor from '../images/photos/Igor.jpeg' // 10 8
+import Marika from '../images/photos/Marika.jpeg' // 3 2
+import SatuSMmasters11 from '../images/photos/satuSMmasters11.jpeg' // 7 5
+import MikaAnne from '../images/photos/MikaAnne.jpeg' // 4 3 
+import MikaAnne2 from '../images/photos/MikaAnne2.jpeg' // 1 1
+import fitnessclassic13 from '../images/photos/fitnessclassic13.jpeg' // 4 3 
+import MikaMaarit from '../images/photos/MikaMaarit.jpeg' // 1 1
+import mirjamarika13 from '../images/photos/mirjamarika13.jpeg' // 4 3 
+import MarcusMika from '../images/photos/MarcusMika.jpeg' // 1 1
+import Mikael from '../images/photos/mikael.jpeg' // 4 3 
+import MikaelMiia from '../images/photos/MikaelMiia.jpeg' // 4 3 
+import MikaAlexandra from '../images/photos/MikaAlexandra.jpeg' // 1 1 
+import ClarissaTanja from '../images/photos/ClarissaTanja.jpeg' // 4 3
+import FitnessClassic16 from '../images/photos/FitnessClassic16.jpeg' // 4 3
+import FitnessClassic from '../images/photos/FitnessClassic.jpeg' // 7 5 
+import Sonja from '../images/photos/Sonja.jpeg' // 4 3
+import MikaSonja from '../images/photos/MikaSonja.jpeg' // 4 3
+import PinjaSonjaEnni19 from '../images/photos/PinjaSonjaEnni19.jpeg' // 10 8
+/*F, {
+    src: ,
+    width: ,
+    height: ,
+    alt: ''
+}, {
+    src: ,
+    width: ,
+    height: ,
+    alt: ''
+}, {
+    src: ,
+    width: ,
+    height: ,
+    alt: ''
+}, {
+    src: ,
+    width: ,
+    height: ,
+    alt: ''
+}, {
+    src: ,
+    width: ,
+    height: ,
+    alt: ''
+}
+, {
 src: ,
 width: ,
 height:,
@@ -271,10 +322,80 @@ export const photos = [{
         height: 4,
         alt: 'Sulo'
     }, {
+        src: Roosa,
+        width: 3,
+        height: 4,
+        alt: 'Roosa'
+    }, {
+        src: Rosa,
+        width: 2,
+        height: 3,
+        alt: 'Rosa'
+    }, {
+        src: Mika123,
+        width: 5,
+        height: 7,
+        alt: 'Mika nuorempana'
+    }, {
+        src: Sanni,
+        width: 9,
+        height: 16,
+        alt: 'Sanni'
+    }, {
+        src: Satumv,
+        width: 8,
+        height: 10,
+        alt: 'Satu'
+    }, {
+        src: SM2021,
+        width: 16,
+        height: 9,
+        alt: 'SM2021'
+    }, {
+        src: ukki,
+        width: 3,
+        height: 2,
+        alt: 'ukki'
+    }, {
         src: MikaNuori,
         width: 8,
         height: 10,
         alt: 'Mika vuonna 1982'
+    }, {
+        src: Igor,
+        width: 8,
+        height: 10,
+        alt: 'Igor'
+    }, {
+        src: Marika,
+        width: 2,
+        height: 3,
+        alt: 'Marika'
+    }, {
+        src: SatuSMmasters11,
+        width: 7,
+        height: 5,
+        alt: 'Satu SM masters 2011'
+    }, {
+        src: MikaAnne,
+        width: 1,
+        height: 1,
+        alt: 'Mika ja Anne'
+    }, {
+        src: fitnessclassic13,
+        width: 4,
+        height: 3,
+        alt: 'Fitness Classic '
+    }, {
+        src: MikaMaarit,
+        width: 1,
+        height: 1,
+        alt: 'Mika ja Maarit'
+    }, {
+        src: mirjamarika13,
+        width: 3,
+        height: 4,
+        alt: 'Mirja ja Marika 2013'
     }]
     /*, {
 src: ,
