@@ -3,7 +3,6 @@ import Conan from '../images/photos/conan.jpeg' // 16 9
 import Enni from '../images/photos/enniEtu.jpeg' //3 2
 import EnniHauis from '../images/photos/enniHauis.jpeg' //3 2
 import EnniKehitys from '../images/photos/enniKehitys.jpeg' //1 1
-import EnniKisa from '../images/photos/enniKisa.jpeg'
 import EnniTakaa from '../images/photos/enniTakaa.jpeg' // 3 2
 import Henna from '../images/photos/henna.jpeg' //4 3
 import HennaSoutu from '../images/photos/hennasoutu.jpeg' //4 3
@@ -17,9 +16,6 @@ import JasminPeili from '../images/photos/jasminpeili.jpeg' // 7 5
 import JasminSoutu from '../images/photos/jasminsoutu.jpeg' // 4 3
 import JasminTalja from '../images/photos/jasmintalja.jpeg' // 4 3
 import JasminTanko from '../images/photos/jasmin1.jpeg' // 3 2
-import Johanna from '../images/photos/johanna.jpeg' //3 2
-import JohannaKehitys from '../images/photos/johannaKehitys.jpeg' // 1 1
-import JohannaNFE from '../images/photos/johannaNFE.jpeg' //3 2
 import Juha from '../images/photos/juha2011.jpeg' //1 1 
 import Juha3 from '../images/photos/juha20113.jpeg' //1 1
 import Kaisa from '../images/photos/kaisa.jpeg' //4 3
@@ -43,7 +39,6 @@ import ruoka1 from '../images/photos/ruoka1.jpeg' //4 3
 import ruoka2 from '../images/photos/ruoka2.jpeg' //4 3
 import tiimi from '../images/photos/tiimi.jpeg' //16 9
 import tuomari from '../images/photos/tuomari.jpeg' //3 2
-
 import Roosa from '../images/photos/roosa.jpeg' // 4 3
 import Rosa from '../images/photos/Rosa.jpeg' // 3 2
 import Mika123 from '../images/photos/mika123.jpeg' // 7 5
@@ -69,37 +64,27 @@ import FitnessClassic from '../images/photos/FitnessClassic.jpeg' // 7 5
 import Sonja from '../images/photos/Sonja.jpeg' // 4 3
 import MikaSonja from '../images/photos/MikaSonja.jpeg' // 4 3
 import PinjaSonjaEnni19 from '../images/photos/PinjaSonjaEnni19.jpeg' // 10 8
-/*F, {
-    src: ,
-    width: ,
-    height: ,
-    alt: ''
-}, {
-    src: ,
-    width: ,
-    height: ,
-    alt: ''
-}, {
-    src: ,
-    width: ,
-    height: ,
-    alt: ''
-}, {
-    src: ,
-    width: ,
-    height: ,
-    alt: ''
-}, {
-    src: ,
-    width: ,
-    height: ,
-    alt: ''
-}
-, {
-src: ,
-width: ,
-height:,
-alt: ''} */
+/* , {
+src: FitnessClassic16,
+width: 4,
+height:3 ,
+alt: 'Fitness Classic 2016'}, {
+src:FitnessClassic ,
+width: 7,
+height: 5,
+alt: 'Fitness Classic'}, {
+src:Sonja ,
+width: 4,
+height: 3,
+alt: 'Sonja'}, {
+src:MikaSonja ,
+width: 3,
+height: 4,
+alt: 'Mika ja Sonja'}, {
+src: PinjaSonjaEnni19,
+width: 8,
+height: 10,
+alt: 'Pinja, Sonja ja Enni, 2019'}*/
 
 export const photos = [{
         src: Mika,
@@ -111,11 +96,6 @@ export const photos = [{
         width: 2,
         height: 3,
         alt: 'Robert NFE 2021'
-    }, {
-        src: JohannaNFE,
-        width: 2,
-        height: 3,
-        alt: 'Johanna NFE 2021'
     }, {
         src: MikajaHenna3,
         width: 3,
@@ -136,11 +116,6 @@ export const photos = [{
         width: 8,
         height: 10,
         alt: 'Mika ja Enni'
-    }, {
-        src: Johanna,
-        width: 2,
-        height: 3,
-        alt: 'Johanna'
     }, {
         src: JasminTalja,
         width: 3,
@@ -166,11 +141,6 @@ export const photos = [{
         width: 1,
         height: 1,
         alt: 'Ennin kehityskuva'
-    }, {
-        src: EnniKisa,
-        width: 2,
-        height: 3,
-        alt: 'Enni NFE 2021'
     }, {
         src: Jasmin,
         width: 3,
@@ -206,11 +176,6 @@ export const photos = [{
         width: 1,
         height: 1,
         alt: 'Juha, Classic Bodybuilding 2011'
-    }, {
-        src: JohannaKehitys,
-        width: 1,
-        height: 1,
-        alt: 'Johannan kehityskuva'
     }, {
         src: tuomari,
         width: 3,
@@ -382,6 +347,31 @@ export const photos = [{
         height: 1,
         alt: 'Mika ja Anne'
     }, {
+        src: FitnessClassic16,
+        width: 4,
+        height: 3,
+        alt: 'Fitness Classic 2016'
+    }, {
+        src: FitnessClassic,
+        width: 7,
+        height: 5,
+        alt: 'Fitness Classic'
+    }, {
+        src: Sonja,
+        width: 3,
+        height: 4,
+        alt: 'Sonja'
+    }, {
+        src: MikaSonja,
+        width: 3,
+        height: 4,
+        alt: 'Mika ja Sonja'
+    }, {
+        src: PinjaSonjaEnni19,
+        width: 8,
+        height: 10,
+        alt: 'Pinja, Sonja ja Enni, 2019'
+    }, {
         src: fitnessclassic13,
         width: 4,
         height: 3,
@@ -396,10 +386,39 @@ export const photos = [{
         width: 3,
         height: 4,
         alt: 'Mirja ja Marika 2013'
+    }, {
+        src: MikaAnne2,
+        width: 3,
+        height: 4,
+        alt: 'Mika ja Anne'
+    }, {
+        src: MarcusMika,
+        width: 1,
+        height: 1,
+        alt: 'Marcus ja Mika'
+    }, {
+        src: Mikael,
+        width: 3,
+        height: 4,
+        alt: 'Mikael'
+    }, {
+        src: MikaelMiia,
+        width: 4,
+        height: 3,
+        alt: 'Mikael ja Miia'
+    }, {
+        src: MikaAlexandra,
+        width: 1,
+        height: 1,
+        alt: 'Mika ja Alexandra'
+    }, {
+        src: ClarissaTanja,
+        width: 3,
+        height: 4,
+        alt: 'Clarissa ja Tanja'
     }]
     /*, {
 src: ,
 width: ,
-height:
-,
+height: ,
 alt: ''} */

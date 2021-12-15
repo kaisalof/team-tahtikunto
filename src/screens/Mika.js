@@ -11,7 +11,7 @@ import ohjauskuva from '../images/ohjaus.jpeg'
 import Mika1982 from '../images/mika1982.jpeg'
 import Mika2001 from '../images/mika2001.jpeg'
 import Mika1994 from '../images/mika1994.jpeg'
-import Johanna from '../images/johanna1.jpg'
+import EnniFC from '../images/enniFC.jpg'
 import Robert from '../images/robert.jpeg'
 import Juha from '../images/Juha2011.jpeg'
 
@@ -113,7 +113,7 @@ const Mika = () => {
                 </Col>
                 <Col lg={5} md={12} sm={12} className="saavutuksetKuvat">
                     <img src={Robert} alt="Robert" className="saavutuksetKuva" />
-                    <img src={Johanna} alt="Johanna" className="saavutuksetKuva" />
+                    <img src={EnniFC} alt="Enni" className="saavutuksetKuva" />
                     <img src={Juha} alt="Juha" className="saavutuksetKuva" />
                 </Col>
             </Row>
