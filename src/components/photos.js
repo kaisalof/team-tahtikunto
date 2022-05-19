@@ -18,7 +18,6 @@ import JasminTalja from '../images/photos/jasmintalja.jpeg' // 4 3
 import JasminTanko from '../images/photos/jasmin1.jpeg' // 3 2
 import Juha from '../images/photos/juha2011.jpeg' //1 1 
 import Juha3 from '../images/photos/juha20113.jpeg' //1 1
-import Kaisa from '../images/photos/kaisa.jpeg' //4 3
 import koira from '../images/photos/koira.jpeg' //4 3
 import Maria from '../images/photos/mariajuvas.jpeg' //4 3 
 import Mika from '../images/photos/mika2.jpeg' //16 9
@@ -30,8 +29,6 @@ import MikajaHenna3 from '../images/photos/mikaHennaSoutu.jpeg' //3 2
 import MikajaInga from '../images/photos/mikaInga.jpeg' //1 1
 import MikaNuorempi from '../images/photos/mikaNuorempi.jpeg' //16 9
 import MikaNuori from '../images/photos/mikaNuori.jpeg' // 10 8
-import Noora1 from '../images/photos/noora1.jpeg' // 7 5
-import Noora2 from '../images/photos/noora2.jpeg' //4 3
 import Robert from '../images/photos/robert.jpeg' //16 9
 import RobertNFE from '../images/photos/robertNFE.jpeg' //3 2
 import ruoka from '../images/photos/ruoka.jpeg' //4 3
@@ -64,27 +61,7 @@ import FitnessClassic from '../images/photos/FitnessClassic.jpeg' // 7 5
 import Sonja from '../images/photos/Sonja.jpeg' // 4 3
 import MikaSonja from '../images/photos/MikaSonja.jpeg' // 4 3
 import PinjaSonjaEnni19 from '../images/photos/PinjaSonjaEnni19.jpeg' // 10 8
-/* , {
-src: FitnessClassic16,
-width: 4,
-height:3 ,
-alt: 'Fitness Classic 2016'}, {
-src:FitnessClassic ,
-width: 7,
-height: 5,
-alt: 'Fitness Classic'}, {
-src:Sonja ,
-width: 4,
-height: 3,
-alt: 'Sonja'}, {
-src:MikaSonja ,
-width: 3,
-height: 4,
-alt: 'Mika ja Sonja'}, {
-src: PinjaSonjaEnni19,
-width: 8,
-height: 10,
-alt: 'Pinja, Sonja ja Enni, 2019'}*/
+
 
 export const photos = [{
         src: Mika,
@@ -121,16 +98,6 @@ export const photos = [{
         width: 3,
         height: 4,
         alt: 'Jasmin'
-    }, {
-        src: Noora1,
-        width: 5,
-        height: 7,
-        alt: 'Noora'
-    }, {
-        src: Noora2,
-        width: 3,
-        height: 4,
-        alt: 'Noora'
     }, {
         src: ruoka1,
         width: 4,
@@ -266,11 +233,6 @@ export const photos = [{
         width: 16,
         height: 9,
         alt: 'Conan'
-    }, {
-        src: Kaisa,
-        width: 3,
-        height: 4,
-        alt: 'Kaisa'
     }, {
         src: MikajaHenna2,
         width: 8,

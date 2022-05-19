@@ -6,18 +6,15 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 // kuvat 
 import tiimi from '../images/tiimikuva.jpeg'
 import Enni from '../images/enniVapaa.jpeg'
-import EnniLava from '../images/enniLava.jpeg' //3 2
+import EnniLava from '../images/enniLava.jpeg' 
 import Henna2 from '../images/henna2.jpeg'
 import Henna3 from '../images/henna3.jpeg'
 import Inga from '../images/inga.jpeg'
 import Inga2 from '../images/inga2.jpeg'
-import Janne from '../images/janne.jpeg'
 import Kia3 from '../images/kia3.jpeg'
 import Kia4 from '../images/kia4.jpeg'
 import Nea from '../images/nea.jpeg'
 import Nea2 from '../images/nea2.jpeg'
-import Noora from '../images/noora.jpeg'
-import NooraKampaukset from '../images/nooraKampaukset.jpeg'
 import Satu from '../images/satu1.jpeg'
 import Satu2 from '../images/satu22.jpeg'
 
@@ -27,7 +24,7 @@ const Tiimi = () => {
             <Row className="tiimiHeader">
                 <Col className="headerColumn">
                     <h1>Team Tähtikunto</h1>
-                    <img src={tiimi} alt="Team Tähtikunto" />
+                    {/*<img alt="Team Tähtikunto" />*/}
                     <p>
                         Team Tähtikunto on alunperin fitness-, fysiikka- ja kehonrakennuskilpailuja varten perustettu kisatiimi. Tähtikunnon valmennuksessa olevat kilpailijat edustavat tiimiä valitsemassaan lajissa ja lisäksi tiimiin kuuluu tavallisia kuntoilijoita.<br />
                         Tiimille järjestetään yhteisiä treenejä, tapaamisia, poseerausharjoituksia ja leirejä, joissa hiotaan asentoja ja esiintymistä. Kilpailuihin urheilijoille järjestetään huolto ja stailaus eri alojen ammattilaisista koostuvasta yhteistyöverkostostamme.<br />
@@ -69,42 +66,6 @@ const Tiimi = () => {
                         Valmistuin 2018 meikkaajaksi ja rakastuin silloin välittömästi näyttävien ilta- ja juhlameikkien maailmaan. Kisameikit ovat siis sataprosenttisesti minun heiniäni! Seuraan jatkuvasti uusia meikkitrendejä ja minulta onnistuu luovat ja erikoisemmatkin työt.<br />
                         Myös treenaaminen on iso osa elämääni vaikka kisasuunnitelmia ei lajin parissa olekaan tällä hetkellä.<br />
                         Team Tähtikunnon matkaan lähdin 2019 ja on ollut ihan huippua olla osa tiimin luovaa puolta!
-                    </p>
-                </Col>
-            </Row>
-
-            <Row className="janne tiimi" >
-                <Col sm={12}>
-                    <h4>Janne</h4>
-                    <h5>Huoltaja</h5>
-                </Col>
-                <Col sm={12}>
-                    <img src={Janne} alt="Janne" className="tiimiKuva kuvaYksi" />
-                    {/* <img src={} alt="" className="tiimiKuva kuvaKaksi" />*/}
-                </Col>
-                <Col className="teksti" sm={12}>
-                    <p>
-                        <br />
-                        <br />
-
-                    </p>
-                </Col>
-            </Row>
-
-            <Row className="noora tiimi2">
-                <Col sm={12}>
-                    <h4>Noora</h4>
-                    <h5>Kampaaja</h5>
-                </Col>
-                <Col sm={12}>
-                    <img src={Noora} alt="Noora" className="tiimiKuva kuvaYksi" />
-                    <img src={NooraKampaukset} alt="Nooran tekemiä kampauksia" className="tiimiKuva kuvaKaksi" />
-                </Col>
-                <Col className="teksti" sm={12}>
-                    <p>
-                        Olen 43-vuotias parturi-kampaaja ja freelance-kouluttaja. Olen kilpaillut ja tehnyt liiketyötä hiusalalla vuodesta 2004 alkaen, joten pitkäjänteisyys, eri tilanteissa työskentely ja panostus on tuttua. Tarkoitan tällä, että ne tilanteet on toisinaan aivan jäätäviä ja yhden kisatyön valmistus saattaa viedä 3-9 kk ja lavalla olo on vain 5-20 minuuttia.<br />
-                        Hiuspesti teamille tuli lisänä, kun tapasin Mikan koutsia etsiessä ja samalla sitkeydellä lähdetään laittamaan kampaajaa elämänsä kuntoon. <br />
-                        Katsotaan kuinka pitkälle se tie vie, mutta hiukset on aina tiptop, koko teamillä.
                     </p>
                 </Col>
             </Row>

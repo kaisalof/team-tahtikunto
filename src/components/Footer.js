@@ -24,9 +24,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="kaisa">
-                <a href="https://github.com/kaisalof" target="_blank" rel="noreferrer">Coded by Kaisa &#129311;</a>
-            </div>
         </div>
     )
 }
